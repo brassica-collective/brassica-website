@@ -1,0 +1,74 @@
+:root {
+  /* RESPONSIVE */
+
+  --breakpoint-sm: 480px;
+
+  /* COLOURS */
+  --blue: #193549;
+  --light: #d4dbdf;
+
+  --grey0: #f1f4fe;
+  --grey1: #e4e6ed;
+  --grey2: #c8cad3;
+  --grey3: #a9adb9;
+  --grey4: #9094a3;
+  --grey5: #7f8496;
+  --grey6: #777c91;
+  --grey7: #63687c;
+  --grey8: #595e72;
+  --grey9: #4a5167;
+
+  --blue0: #edf8fd;
+  --blue1: #b8dff3;
+  --blue2: #89c2e5;
+  --blue3: #5ea3d1;
+  --blue4: #3f80b2;
+  --blue5: #365c7d;
+  --blue6: #244f6f;
+  --blue7: #16415d;
+  --blue8: #0b3248;
+  --blue9: #04212f;
+
+  --orange0: #fff4e1;
+  --orange1: #ffe8cc;
+  --orange2: #fed09b;
+  --orange3: #fdb766;
+  --orange4: #fca13a;
+  --orange5: #fc931d;
+  --orange6: #e17800;
+  --orange7: #e17800;
+  --orange8: #c86a00;
+  --orange9: #af5a00;
+
+  --burnt-orange0: #fdf0ed;
+  --burnt-orange1: #f6bfb2;
+  --burnt-orange2: #ee8e77;
+  --burnt-orange3: #e65e3c;
+  --burnt-orange4: #c63c1a;
+  --burnt-orange5: #8b2b13;
+  --burnt-orange6: #6e2114;
+  --burnt-orange7: #521812;
+  --burnt-orange8: #36100c;
+  --burnt-orange9: #1e0400;
+
+  --green0: #d0e7d0;
+  --green1: #b5d9b5;
+  --green2: #9acc9a;
+  --green3: #7ebe80;
+  --green4: #60b066;
+  --green5: #3fa24c;
+  --green6: #009431;
+  --green7: #00772a;
+  --green8: #005c23;
+  --green9: #00421c;
+
+  --main-content-width: 800px;
+
+  --page-gutter: 1.5em;
+}
+
+@media screen and (max-width: 480px) {
+  :root {
+    --page-gutter: 1em;
+  }
+}

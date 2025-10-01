@@ -1,0 +1,11 @@
+{{ $styles := slice }}
+{{ range  resources.Match "css/**" }}
+  {{ $fileName := printf "%s.name.css" .Name }}
+  {{ $fileComment := printf "\n\n/* ---- %s ---- */\n\n" (path.Base .Name) }}
+  {{ $commentResource := resources.FromString $fileName $fileComment }}
+  {{ $styles = $styles | append $commentResource . }}
+{{ end }}
+
+{{ with $styles | resources.Concat "css/styles-merged.css" | fingerprint "md5" }}
+  <link rel="stylesheet" href="{{ .RelPermalink }}" />
+{{ end }}
