@@ -1,8 +1,8 @@
 ---
-title: Start changing our relationship to property ownership
+title: We are prepared to practice navigating conflict early & often
 date: 2025-10-01T09:00:00+10:00
 draft: false
-weight: 5
+weight: 3
 type: roadmap
 slug:
 summary:
