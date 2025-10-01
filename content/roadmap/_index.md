@@ -6,6 +6,6 @@ weight: 1
 type: roadmap
 ---
 
-Reading downwards, our planning roadmap extends into the future. The further you go beyond the in-progres work, the less certain things become. We're not averse to changing things at any time, so treat this as current indicative thinking rather than any sort of promise.
+Reading downwards, our planning roadmap extends into the future. The further you go beyond the in-progres work, the less certain things become.
 
-Would it be useful for your project or organisation if we focussed on different things? Let us know.
+We expect for this roadmap to change as we learn, so treat this as current indicative thinking rather than any sort of promise.
