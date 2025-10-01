@@ -171,10 +171,12 @@ a.roadmap-item:hover {
 
   .roadmap-rows > .roadmap-item-row.not-section:nth-child(odd) {
     padding-right: calc(50% + var(--page-gutter));
+    justify-content: flex-end;
   }
 
   .roadmap-rows > .roadmap-item-row.not-section:nth-child(even) {
     padding-left: calc(50% + var(--page-gutter));
+    justify-content: flex-start;
   }
 }
 

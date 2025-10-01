@@ -1,6 +1,6 @@
 .on-earth {
   color: #eee;
-  background: linear-gradient(to bottom, var(--earth-light) 0%, var(--earth) 100px, var(--earth) 100%);
+  background: linear-gradient(to bottom, var(--earth-light) 0%, var(--earth) 300px, var(--earth) 100%);
 }
 
 .on-earth > .grid-paper {
