@@ -13,9 +13,6 @@ menus:
     - name: "Roadmap"
       pageRef: "/roadmap"
       weight: 1
-    - name: "Contact us"
-      pageRef: "/contact"
-      weight: 3
 
 module:
   hugoVersion:
