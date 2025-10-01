@@ -4,6 +4,7 @@ footer {
   display: flex;
   padding: 1rem;
   color: var(--grey3);
+  border-top: 2px solid black;
 }
 
 .footer-sections {

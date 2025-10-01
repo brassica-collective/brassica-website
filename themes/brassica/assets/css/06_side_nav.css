@@ -19,7 +19,7 @@ nav.side-nav ul ul {
 }
 
 nav.side-nav a {
-  color: var(--orange5);
+  color: var(--burnt-orange5);
   display: block;
   padding: 3px 1em;
 }
@@ -30,7 +30,7 @@ nav.side-nav ul ul a {
 
 nav.side-nav a:hover {
   background-color: var(--burnt-orange4);
-  color: var(--orange3);
+  color: var(--burnt-orange3);
 }
 
 nav.side-nav a.active {

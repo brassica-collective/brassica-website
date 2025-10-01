@@ -1,14 +1,15 @@
 /* Header */
 
 header {
-  background-color: var(--orange1);
-  background: linear-gradient(to bottom, var(--orange3), var(--orange5));
+  background-color: var(--burnt-orange1);
+  background: linear-gradient(to bottom, var(--burnt-orange6), var(--burnt-orange4));
   display: flex;
   /* padding: 0 var(--page-gutter); */
   padding: 0;
   align-items: stretch;
   justify-content: space-between;
   height: 70px;
+  border-bottom: 2px solid black;
 }
 
 header .brand {
@@ -19,7 +20,6 @@ header .brand {
 }
 
 header h1 {
-  color: var(--burnt-orange8);
   margin: 0;
   line-height: 100%;
 
@@ -27,7 +27,7 @@ header h1 {
 }
 
 header h1 a {
-  color: var(--burnt-orange8);
+  color: black;
   text-decoration: none;
 }
 
@@ -51,7 +51,7 @@ header nav li {
 }
 
 header nav a {
-  color: var(--burnt-orange8);
+  color: var(--burnt-orange9);
   font-size: 120%;
   font-weight: bold;
   height: 100%;
@@ -64,9 +64,9 @@ header nav a {
 }
 
 header nav a:hover {
-  color: var(--burnt-orange6);
+  color: black;
   text-decoration: underline;
-  background: linear-gradient(to bottom, var(--orange1), var(--orange3));
+  background: linear-gradient(to bottom, var(--burnt-orange5), var(--burnt-orange3));
 }
 
 /* "Hide" checkbox -- moves it off screen*/

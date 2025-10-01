@@ -85,7 +85,7 @@ article section.hero {
 }
 
 article aside.user-story {
-  border: 2px solid var(--orange3);
+  border: 2px solid var(--burnt-orange3);
   padding: 1rem;
   border-radius: 8px;
   max-width: calc(var(--main-content-width) * 0.9);
