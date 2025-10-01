@@ -1,16 +1,16 @@
 ---
-title: LoRes Mesh
+title: Brassica Collective
 date: 2025-09-01T08:00:00+10:00
 draft: false
 type: home
 ---
 
-# Host web apps in a local, resilient mesh network
+# Brassica Handbook
 
-LoRes Mesh is an open source project to allow you to run local servers, connected both over the internet and by other approaches that might work when the internet is down.
+Brassica Collective is a multi-site housing project driven by an emerging group of participants. Inspired by RAD Housing, we aim to use the ’transistion to stewardship’ model to help us retrofit and decommodify multiple houses in ways that support us to live more collectively while acting in solidarity with broader movements for justice.
 
-It will help you build a local, sustainable and resilient network for your neighbourhood.
+Inspired by RAD Housing, we aim to use the ’transistion to stewardship’ model to help us retrofit and decommodify multiple houses in ways that support us to live more collectively while acting in solidarity with broader movements for justice.
 
-If you're a developer, try our [docs for creating an app](/docs/creating_a_lores_app/).
+This handbook is intended for participants in the collective to find all the resources they need in one place.
 
-If you're a community organiser, volunteer or impact investor, you might want to get a sense of our [planned roadmap](/roadmap) and find out how to [contact us](/contact)
+We are learning in the open and welcome others experimenting in collective practices to take and adapt anything here they find useful.
