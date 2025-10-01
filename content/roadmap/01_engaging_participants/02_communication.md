@@ -12,7 +12,7 @@ params:
 
 {{< user_story >}}
 _As a_ **participant**
-_I want to be able to_ **communicate witg other participants**
+_I want to be able to_ **communicate with other participants**
 _So that we can_ **collaborate on driving the project forward**
 {{< /user_story >}}
 

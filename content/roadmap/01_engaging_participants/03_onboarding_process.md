@@ -13,7 +13,7 @@ params:
 {{< user_story >}}
 _As a_ **participant**
 _I want to be able to_ **learn current collective practices**
-_So that I can_ \*\*contribute to building on these as we co-create future collective practices\*\*
+_So that I can_ **contribute to building on these as we co-create future collective practices**
 {{< /user_story >}}
 
 ## What success looks like
