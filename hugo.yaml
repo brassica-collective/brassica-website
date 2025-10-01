@@ -1,6 +1,6 @@
 baseURL: "https://lores.tech/"
 languageCode: "en-au"
-title: "LoRes Mesh"
+title: "Brassica Collective"
 theme: "brassica"
 minify:
   disableHTML: true
