@@ -1,5 +1,5 @@
 ---
-title: First site purchase
+title: Seedling house purchase
 date: 2025-10-01T09:00:00+10:00
 draft: false
 weight: 2

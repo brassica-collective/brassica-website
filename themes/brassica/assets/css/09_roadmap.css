@@ -112,6 +112,13 @@ a.roadmap-item:hover {
   --status-color-text: var(--grey0);
 }
 
+.has-status.status-suggestion {
+  --status-color: var(--grey8);
+  --status-color-highlight: var(--grey7);
+  --status-color-text: var(--grey0);
+  opacity: 0.6;
+}
+
 .roadmap-item-row.has-status a.roadmap-item {
   border-color: var(--status-color);
 }
