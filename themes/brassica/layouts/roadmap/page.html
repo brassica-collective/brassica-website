@@ -14,10 +14,10 @@
     {{ .Content }} {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
 
     <div class="parent-page-link">
-        {{ with .Parent }}
-          <a href="{{ .RelPermalink }}"><span class="back-arrow">←</span> back to {{ .Title }}</a>
-        {{ end }}
-      </div>
+      {{ with .Parent }}
+        <a href="{{ .RelPermalink }}"><span class="back-arrow">←</span> back to {{ .Title }}</a>
+      {{ end }}
+    </div>
   </article>
 </div>
 {{ end }}
