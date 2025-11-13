@@ -5,7 +5,7 @@ draft: false
 weight: 2
 type: roadmap
 slug:
-summary:
+summary: Our first housing site is collectively owned, retrofitted, lived-in and is on the pathway to being decommodified.
 params:
   status: in-progress
 ---
