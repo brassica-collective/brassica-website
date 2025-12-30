@@ -5,7 +5,7 @@ draft: false
 weight: 2
 type: roadmap
 slug:
-summary: We have agreed on general principles which describe what we value in house purchases across the collective so that we can develop specific criteria per house.
+summary: We have clear agreement on what is required to plan an individual site purchase
 params:
-  status: proposed
+  status: complete
 ---
