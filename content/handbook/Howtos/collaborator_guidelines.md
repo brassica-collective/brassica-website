@@ -2,11 +2,10 @@
 title: Guidelines for Collaborators
 slug: guidelines_collaborators
 type: docs
-prev: guidelines_non-participant
-next: handbook_editing
-weight: 4
-sidebar:
-open: true
+menus:
+  handbook:
+    weight: 4
+    parent: How-tos
 ---
 
 Collaborators are [non-participants](../guidelines_non-participant) whose involvement in the project includes contributing without, or in between intervals of, [participating](../../participation) in Brassica Collective.

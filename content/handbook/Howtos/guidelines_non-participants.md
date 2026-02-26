@@ -2,11 +2,10 @@
 title: Guidelines for non-participants
 slug: guidelines_non-participant
 type: docs
-prev: assembly_facilitation
-next: guidelines_collaborators
-weight: 3
-sidebar:
-  open: true
+menus:
+  handbook:
+    weight: 3
+    parent: How-tos
 ---
 
 The Brassica Collective welcomes involvement by non-participants in a wide range of ways.

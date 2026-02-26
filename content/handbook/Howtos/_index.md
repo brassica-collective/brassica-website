@@ -5,7 +5,7 @@ type: docs
 menus:
   handbook:
     weight: 5
-    name: Agreements
+    name: How-tos
 ---
 
 This section contains guides and processes for performing important steps in the collective. These are typically not created by full group processes (otherwise they would be an [agreement](../agreements)) but are usually maintained by a working group or individual.

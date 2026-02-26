@@ -2,11 +2,10 @@
 title: Assembly Facilitation Guidelines
 slug: assembly_facilitation
 type: docs
-prev: onboarding_process
-next: guidelines_non-participant_attendees
-weight: 2
-sidebar:
-  open: true
+menus:
+  handbook:
+    weight: 2
+    parent: How-tos
 ---
 
 Lessons from decentralised organising emphasise the value of cultivating clear and flexible processes that help us have [better meetings](https://commonslibrary.org/better-activist-meetings/).
