@@ -2,11 +2,10 @@
 title: Interim TE Fund
 slug: te_fund
 type: docs
-prev: decision_making_process
-next: agreements
-weight: 3
-sidebar:
-  open: true
+menus:
+  handbook:
+    weight: 2
+    parent: Interim Processes
 ---
 
 This document describes how Brassica Collective funds are managed during this interim stage where we are not incorporated. The intent is that once a legal structure has been prepared to represent the Brassica Collective, funds will be moved over to that system.
@@ -71,7 +70,7 @@ All scheme calculations are performed monthly (per calendar month). Any numbers 
 
 ### How do you report on it?
 
-You'll receive a statement of your balance each month, no later than a week into the new month. This will be via email. We *may* also have a web URL you can use to check your balance, although probably not for the first few months.
+You'll receive a statement of your balance each month, no later than a week into the new month. This will be via email. We _may_ also have a web URL you can use to check your balance, although probably not for the first few months.
 
 ### What could the money get spent on?
 
@@ -97,7 +96,7 @@ During this Interim TE Fund, it is not envisaged there will be a requirement for
 
 **Shelter assistance if living outside the scheme (paying for your rent elsewhere)**
 
-Strictly speaking the scheme isn't providing housing at this stage, so we're all living outside the schema and probably all need shelter. So, we're going to focus on the intent of this and say: *you can withdraw some or all of your transitional equity (without having to leave the collective) if you are experiencing financial hardship and need assistance paying for your housing*.
+Strictly speaking the scheme isn't providing housing at this stage, so we're all living outside the schema and probably all need shelter. So, we're going to focus on the intent of this and say: _you can withdraw some or all of your transitional equity (without having to leave the collective) if you are experiencing financial hardship and need assistance paying for your housing_.
 
 **Cashing out**
 
