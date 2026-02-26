@@ -61,21 +61,19 @@
 
 a.roadmap-item {
   text-decoration: none;
-  color: black;
   min-width: 200px;
   max-width: 500px;
-  background-color: #ebe5d0;
+  background-color: var(--earth5);
   border: 2px solid black;
   border-radius: 8px;
   box-shadow: 2px 3px 10px black;
-  /* color: var(--grey2); */
+  color: white;
 }
 
 a.roadmap-item:hover {
   text-decoration: none;
   color: inherit;
-  background-color: var(--blue6);
-  border-color: var(--blue8);
+  background-color: var(--earth4);
 }
 
 .roadmap-item .details {
@@ -84,6 +82,7 @@ a.roadmap-item:hover {
 
 .roadmap-item h2 {
   font-size: 1.2em;
+  color: var(--gumleaf4);
 }
 
 /* Roadmap Item Status */
@@ -98,6 +97,8 @@ a.roadmap-item:hover {
   font-weight: bold;
   letter-spacing: 2px;
   text-transform: uppercase;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
 }
 
 .has-status.status-in-progress {
@@ -126,7 +127,7 @@ a.roadmap-item:hover {
 }
 
 .roadmap-item-row.has-status a.roadmap-item {
-  border-color: var(--status-color);
+  border-color: var(--gumleaf1);
 }
 
 .roadmap-item-row.has-status .status-indicator {
@@ -135,7 +136,7 @@ a.roadmap-item:hover {
 }
 
 .roadmap-item-row.has-status a.roadmap-item:hover {
-  border-color: var(--status-color-highlight);
+  border-color: var(--gumleaf0);
 }
 
 .roadmap-item-row.has-status a.roadmap-item:hover .status-indicator {
