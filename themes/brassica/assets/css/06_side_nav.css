@@ -25,7 +25,7 @@ nav.side-nav a {
 }
 
 nav.side-nav ul ul a {
-  border-left: 2px solid var(--burnt-orange5);
+  border-left: 2px solid var(--burnt-orange8);
 }
 
 nav.side-nav a:hover {

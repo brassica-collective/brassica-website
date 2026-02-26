@@ -1,7 +1,7 @@
 /* Header */
 
 header {
-  background-color: var(--burnt-orange1);
+  background-color: var(--earth8);
   background: linear-gradient(to bottom, var(--gumleaf6), var(--gumleaf4));
   display: flex;
   /* padding: 0 var(--page-gutter); */
@@ -51,7 +51,7 @@ header nav li {
 }
 
 header nav a {
-  color: var(--burnt-orange9);
+  color: var(--eath8);
   font-size: 120%;
   font-weight: bold;
   height: 100%;
@@ -66,7 +66,7 @@ header nav a {
 header nav a:hover {
   color: black;
   text-decoration: underline;
-  background: linear-gradient(to bottom, var(--burnt-orange5), var(--burnt-orange3));
+  background: linear-gradient(to bottom, var(--gumleaf4), var(--gumleaf2));
 }
 
 /* "Hide" checkbox -- moves it off screen*/
