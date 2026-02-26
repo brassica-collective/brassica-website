@@ -2,11 +2,10 @@
 title: Multi-Site Purchasing
 slug: multi_site_purchasing
 type: docs
-prev: responsibilities_and_expectations
-next: knowledge_gardening_crew
-weight: 4
-sidebar:
-  open: true
+menus:
+  handbook:
+    weight: 4
+    parent: Agreements
 ---
 
 This agreement describes the general approach of the Brassica Collective to purchasing land and houses. It applies to all site purchases. 
@@ -16,13 +15,13 @@ This agreement describes the general approach of the Brassica Collective to purc
 As part of the broader Brassica Collective vision, we specifically want to acquire properties consistent with the following goals:
 
 1. **Multiple residences in the inner northern suburbs of Naarm.**
-We envisage multiple residences in Naarm, located in either Merri-bek or Darebin.
+   We envisage multiple residences in Naarm, located in either Merri-bek or Darebin.
 2. **Support movement and change.**
-Our residences provide different options for living for people, including the ability to change their situation due to changing life needs. While not necessarily a part of all houses, on the whole our collective has support for people moving between locations or living across multiple locations.
+   Our residences provide different options for living for people, including the ability to change their situation due to changing life needs. While not necessarily a part of all houses, on the whole our collective has support for people moving between locations or living across multiple locations.
 3. **Low-carbon connectivity.**
-Ideally, each residence can be easily accessed from at least one other property in the collective without driving. This may be due to proximity allowing for easy walking and cycling, or it may utilise existing public transport infrastructure.
+   Ideally, each residence can be easily accessed from at least one other property in the collective without driving. This may be due to proximity allowing for easy walking and cycling, or it may utilise existing public transport infrastructure.
 4. **Leave room for a rural/regional connection.**
-In the future we expect to flesh out further the rough goal of providing a connection to rural and/or regional living within Victoria, either through residences in such an area owned by the collective, or close relationships with like-minded groups.
+   In the future we expect to flesh out further the rough goal of providing a connection to rural and/or regional living within Victoria, either through residences in such an area owned by the collective, or close relationships with like-minded groups.
 
 ## Why we purchase
 
@@ -32,10 +31,10 @@ We purchase sites in order to provide housing that is in line with our collectiv
 
 This will be amended later to present a plan for how we stagger the purchase of multiple sites. For now, we will purchase our first site when:
 
--   We have a registered legal entity for the collective, and all the legal instruments ready to execute the T2S model.
--   We have created all the agreements outlined in Purchase Steps (below)
--   We have commitments to provide all the funds and loan guarantees needed to purchase a site
--   We have passed a Major Decision of the collective indicating that we are ready to execute a site purchase
+- We have a registered legal entity for the collective, and all the legal instruments ready to execute the T2S model.
+- We have created all the agreements outlined in Purchase Steps (below)
+- We have commitments to provide all the funds and loan guarantees needed to purchase a site
+- We have passed a Major Decision of the collective indicating that we are ready to execute a site purchase
 
 ## How we purchase
 
@@ -67,7 +66,7 @@ The Site Purchasing Agreement will contain:
 
 ### Purchase Ethical Principles
 
-__Future amendments should update this to include ethical considerations of how we undertake the purchase, and in particular to address the issue of what we do if a property we are considering purchasing is currently tenanted.__
+**Future amendments should update this to include ethical considerations of how we undertake the purchase, and in particular to address the issue of what we do if a property we are considering purchasing is currently tenanted.**
 
 ## What we purchase
 
@@ -89,22 +88,22 @@ The following general principles guide the development of our specific purchase 
     1.  **Collective luxury**: Sites should have potential for meaningful collective features providing both usefulness and moments of luxury, rather than investing in private space and individual solutions.
     2.  **Supporting our well-being:** Our spaces have potential to support our wellbeing needs including time outdoors in nature, move our bodies, and/or engage in practices that support our culture, mental-health and/or spirituality.
 5.  We are responsible to future residents to **avoid undue risk**
-     1.  **Avoid major location risks**: Relative to the local area, we do not pick sites which are prone to “natural disasters”, even with a long term view of climate change. 
-     2.  **Avoid major structural risks**: We take the time to ensure that the fundamental structural elements of buildings are sound (or not sound in known ways that we have a plan to remedy).
-     3.  **Minimise risks to food growing**: We ensure that soil toxicity is not unduly high, and investigate other risks of pollution to air, soil and water in the context of our plans for food production. We also consider the risk of future development blocking our solar access.
-     4.  **Appropriate level of financial risk:** We consider budget and financial risk in the context of a changing world with possible economic shocks and attempt to keep financial risk to the collective within manageable levels. 
+    1.  **Avoid major location risks**: Relative to the local area, we do not pick sites which are prone to “natural disasters”, even with a long term view of climate change. 
+    2.  **Avoid major structural risks**: We take the time to ensure that the fundamental structural elements of buildings are sound (or not sound in known ways that we have a plan to remedy).
+    3.  **Minimise risks to food growing**: We ensure that soil toxicity is not unduly high, and investigate other risks of pollution to air, soil and water in the context of our plans for food production. We also consider the risk of future development blocking our solar access.
+    4.  **Appropriate level of financial risk:** We consider budget and financial risk in the context of a changing world with possible economic shocks and attempt to keep financial risk to the collective within manageable levels. 
 
 ## Review Conditions
 
 This agreement will be reviewed in any of the following conditions (whichever comes first): 
 
--   The collective agrees on a clear vision or mission statement
--   The collective passes an agreement describing house theming, or who gets to live in each house.
--   Prior to proposing a site purchasing agreement if this agreement has not otherwise been reviewed in the last year.
+- The collective agrees on a clear vision or mission statement
+- The collective passes an agreement describing house theming, or who gets to live in each house.
+- Prior to proposing a site purchasing agreement if this agreement has not otherwise been reviewed in the last year.
 
 ## Context Questions & Assumptions
 
-__Does this apply to all site purchases? What if we want to purchase something like a farm or a block of flats? What if someone wants to move an already retrofitted house into the collective?__
+**Does this apply to all site purchases? What if we want to purchase something like a farm or a block of flats? What if someone wants to move an already retrofitted house into the collective?**
 
--   This has been written imagining the purchase of multiple suburban share-houses. If a different kind of site purchase is being planned (such a farm, a block of flats, or a commercial property) this agreement still applies but it is intended that we would amend it to better handle that situation.
--   If an opportunity to acquire a site by different channels appears (receiving one in a will, a friendly sale from a collective member) this agreement should still be considered. We can make a major decision to ignore this agreement in a particular case, but should note that if it’s possible to amend this agreement instead, that will allow us to consider the general implications of what might seem like a one-off opportunity.
+- This has been written imagining the purchase of multiple suburban share-houses. If a different kind of site purchase is being planned (such a farm, a block of flats, or a commercial property) this agreement still applies but it is intended that we would amend it to better handle that situation.
+- If an opportunity to acquire a site by different channels appears (receiving one in a will, a friendly sale from a collective member) this agreement should still be considered. We can make a major decision to ignore this agreement in a particular case, but should note that if it’s possible to amend this agreement instead, that will allow us to consider the general implications of what might seem like a one-off opportunity.
