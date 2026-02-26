@@ -4,9 +4,16 @@
   --breakpoint-sm: 480px;
 
   /* COLOURS */
-  --earth-light: #3f342f;
-  --earth: #292625;
-  --earth-dark: #141312;
+  --earth0: #d1b5af;
+  --earth1: #c19c94;
+  --earth2: #a3867a;
+  --earth3: #85625f;
+  --earth4: #664945;
+  --earth5: #4d2f2a;
+  --earth6: #34221e;
+  --earth7: #271916;
+  --earth8: #1a110f;
+  --earth9: #0d0807;
 
   --grey0: #f1f4fe;
   --grey1: #e4e6ed;
