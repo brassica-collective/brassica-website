@@ -9,23 +9,23 @@
 }
 
 .on-earth h1 {
-  color: var(--burnt-orange2);
+  color: var(--gumleaf1);
 }
 
 .on-earth h2 {
-  color: var(--burnt-orange3);
+  color: var(--gumleaf2);
 }
 
 .on-earth h3 {
-  color: var(--burnt-orange4);
+  color: var(--gumleaf3);
 }
 
 .on-earth h4 {
-  color: var(--burnt-orange5);
+  color: var(--gumleaf4);
 }
 
 .on-earth strong {
-  color: var(--burnt-orange6);
+  color: var(--gumleaf5);
 }
 
 .on-earth em {
@@ -33,11 +33,11 @@
 }
 
 .on-earth a {
-  color: var(--burnt-orange4);
+  color: var(--gumleaf3);
 }
 
 .on-earth a:hover {
-  color: var(--burnt-orange3);
+  color: var(--gumleaf3);
 }
 
 .on-earth code {
@@ -55,5 +55,5 @@
 }
 
 .on-earth nav.between-pages {
-  border-color: var(--burnt-orange4);
+  border-color: var(--earth3);
 }

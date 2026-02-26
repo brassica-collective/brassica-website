@@ -2,7 +2,7 @@
 
 header {
   background-color: var(--burnt-orange1);
-  background: linear-gradient(to bottom, var(--burnt-orange6), var(--burnt-orange4));
+  background: linear-gradient(to bottom, var(--gumleaf6), var(--gumleaf4));
   display: flex;
   /* padding: 0 var(--page-gutter); */
   padding: 0;

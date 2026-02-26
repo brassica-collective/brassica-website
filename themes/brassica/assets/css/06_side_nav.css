@@ -2,7 +2,7 @@
 
 nav.side-nav {
   background-color: var(--burnt-orange5);
-  background: linear-gradient(to bottom, var(--gumleaf8) 0%, var(--gumleaf7) 100px, var(--gumleaf7) 100%);
+  background: linear-gradient(to bottom, var(--burnt-orange5) 0%, var(--burnt-orange6) 100px, var(--burnt-orange6) 100%);
   padding: 1rem 0;
   display: flex;
   flex-direction: column;
