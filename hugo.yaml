@@ -10,9 +10,12 @@ docs:
 
 menus:
   main:
+    - name: "Handbook"
+      pageRef: "/handbook"
+      weight: 1
     - name: "Roadmap"
       pageRef: "/roadmap"
-      weight: 1
+      weight: 2
 
 module:
   hugoVersion:
