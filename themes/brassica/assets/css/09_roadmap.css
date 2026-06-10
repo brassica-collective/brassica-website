@@ -287,6 +287,13 @@ a.roadmap-item:hover {
   margin-right: calc(2 * var(--page-gutter));
 }
 
+.stream-indicator {
+  background-color: black;
+  color: var(--earth1);
+  text-align: center;
+  padding: 0.2em 0.5em;
+}
+
 /* Types: Milestone */
 
 .roadmap-rows .roadmap-milestone-container {
