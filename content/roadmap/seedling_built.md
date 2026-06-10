@@ -5,7 +5,7 @@ draft: false
 weight: 4
 type: roadmap
 slug:
-summary:
+summary: Everyone on site is housed in a way that minimised resource use, and provides shelter from key climate impacts.
 params:
   type: stream
   stream: built

@@ -5,7 +5,7 @@ draft: false
 weight: 4
 type: roadmap
 slug:
-summary:
+summary: Our permaculture gardens are designed for the climate crisis, and provide food, cooling and habitat.
 params:
   type: stream
   stream: builogical

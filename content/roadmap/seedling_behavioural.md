@@ -5,7 +5,7 @@ draft: false
 weight: 4
 type: roadmap
 slug:
-summary:
+summary: We develop tools for relating well while sharing basic needs, and we do so imbedded in community and in solidarity with broader movements.
 params:
   type: stream
   stream: behavioural

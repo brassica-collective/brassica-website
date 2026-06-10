@@ -255,12 +255,6 @@ a.roadmap-item:hover {
   margin-right: 0;
 }
 
-@media screen and (max-width: 480px) {
-  .roadmap-rows .roadmap-stream-group-container {
-    margin-left: calc(-1 * var(--page-gutter));
-  }
-}
-
 .roadmap-rows .roadmap-stream-group {
   width: 100%;
   display: flex;
@@ -271,12 +265,6 @@ a.roadmap-item:hover {
   overflow-x: auto;
   z-index: 10;
   width: 100%;
-}
-
-@media screen and (max-width: 480px) {
-  .roadmap-rows .roadmap-stream-group {
-    justify-content: left;
-  }
 }
 
 .roadmap-rows > .roadmap-stream-group-container > .roadmap-stream-group > .roadmap-item-row {
@@ -309,6 +297,23 @@ a.roadmap-item:hover {
   color: var(--earth1);
   text-align: center;
   padding: 0.2em 0.5em;
+}
+
+@media screen and (max-width: 480px) {
+  .roadmap-rows .roadmap-stream-group-container {
+    margin-left: calc(-1 * var(--page-gutter));
+    margin-right: calc(-1 * var(--page-gutter));
+  }
+
+  .roadmap-rows > .roadmap-stream-group-container > .roadmap-stream-group > .roadmap-item-row {
+    max-width: 70vw;
+    width: 70vw;
+    flex-shrink: 0;
+  }
+
+  .roadmap-rows .roadmap-stream-group {
+    justify-content: left;
+  }
 }
 
 /* Types: Milestone */
