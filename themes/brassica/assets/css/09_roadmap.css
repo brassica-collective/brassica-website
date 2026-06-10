@@ -266,17 +266,34 @@ a.roadmap-item:hover {
   display: flex;
   flex-direction: row;
   align-items: stretch;
+  justify-content: center;
   gap: 1em;
   overflow-x: auto;
   z-index: 10;
+  width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+  .roadmap-rows .roadmap-stream-group {
+    justify-content: left;
+  }
 }
 
 .roadmap-rows > .roadmap-stream-group-container > .roadmap-stream-group > .roadmap-item-row {
   padding: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+  max-width: 300px;
 }
 
 .roadmap-rows .roadmap-stream-group > .roadmap-item-row > .roadmap-item-container {
   height: 100%;
+  width: 100%;
+}
+
+.roadmap-rows .roadmap-stream-group > .roadmap-item-row > .roadmap-item-container > a.roadmap-item {
+  height: 100%;
+  width: 100%;
 }
 
 .roadmap-rows .roadmap-stream-group > .roadmap-item-row:first-child {

@@ -2,7 +2,7 @@
 title: Demonstrate multi-house collectivism
 date: 2025-10-01T09:00:00+10:00
 draft: false
-weight: 3
+weight: 6
 type: roadmap
 slug:
 summary:
