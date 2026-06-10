@@ -249,6 +249,25 @@ a.roadmap-item:hover {
   margin-bottom: 10px;
 }
 
+/* Stream grouping */
+
+.roadmap-rows .roadmap-stream-group {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  margin-left: calc(-1 * var(--page-gutter));
+  margin-right: calc(-1 * var(--page-gutter));
+  overflow-x: auto;
+}
+
+.roadmap-rows .roadmap-stream-group > .roadmap-item-row:first-child {
+  margin-left: calc(2 * var(--page-gutter));
+}
+
+.roadmap-rows .roadmap-stream-group > .roadmap-item-row:last-child {
+  margin-right: calc(2 * var(--page-gutter));
+}
+
 /* Types: Milestone */
 
 .roadmap-item-row.type-milestone a.roadmap-item {
