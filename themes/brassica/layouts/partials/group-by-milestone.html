@@ -1,0 +1,28 @@
+{{/*
+  Takes a page collection and returns a slice of groups.
+  Each group is a dict with:
+    - "type": "milestone" | "streams"
+    - "page":  the milestone Page (when type = "milestone")
+    - "pages": slice of stream Pages (when type = "streams")
+*/}}
+{{ $groups  := slice }}
+{{ $current := slice }}
+
+{{ range . }}
+  {{ if eq .Params.type "milestone" }}
+    {{ if $current }}
+      {{ $groups  = $groups | append (dict "type" "streams" "pages" $current) }}
+      {{ $current = slice }}
+    {{ end }}
+    {{ $groups = $groups | append (dict "type" "milestone" "page" .) }}
+  {{ else }}
+    {{ $current = $current | append . }}
+  {{ end }}
+{{ end }}
+
+{{/* flush any trailing non-milestone pages */}}
+{{ if $current }}
+  {{ $groups = $groups | append (dict "type" "streams" "pages" $current) }}
+{{ end }}
+
+{{ return $groups }}

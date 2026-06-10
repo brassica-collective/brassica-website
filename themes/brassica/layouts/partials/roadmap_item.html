@@ -1,0 +1,20 @@
+<div class="roadmap-item-row {{ if .IsSection }}is-section{{ else }}not-section{{ end }} {{ if .Params.status }}has-status status-{{ .Params.status }}{{ end }} {{ if .Params.type }}type-{{ .Params.type }}{{ end }}">
+  <div class="roadmap-item-container">
+    <a class="roadmap-item" href="{{ .RelPermalink }}">
+      {{ with .Params.status }}
+        <div class="status-indicator status-{{ . | lower }}">{{ . }}</div>
+      {{ end }}
+      <div class="details">
+        <h2>{{ .Title }}</h2>
+        <p>{{ .Summary }}</p>
+      </div>
+      <div class="sub-pages">
+        {{ with .Pages }}
+          {{ range . }}
+            <span class="sub-page status-{{ .Params.status }} {{ if .Params.status }}has-status{{ end }}" aria-hidden="true"></span>
+          {{ end }}
+        {{ end }}
+      </div>
+    </a>
+  </div>
+</div>
