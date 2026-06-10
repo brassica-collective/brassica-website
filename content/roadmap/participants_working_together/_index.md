@@ -7,9 +7,6 @@ type: roadmap
 slug:
 summary: Sustainable processes for participation, and enough people regularly participating to try them out.
 params:
-<<<<<<< HEAD
   type: milestone
-=======
->>>>>>> bcd2f00 (renamed preparing the soil)
   status: complete
 ---
