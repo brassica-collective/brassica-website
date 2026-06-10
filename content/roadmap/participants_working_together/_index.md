@@ -7,5 +7,6 @@ type: roadmap
 slug:
 summary: Sustainable processes for participation, and enough people regularly participating to try them out.
 params:
+  type: milestone
   status: complete
 ---
