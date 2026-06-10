@@ -1,11 +1,12 @@
 ---
-title: Seedling house
+title: We move in to Seedling House
 date: 2025-10-01T09:00:00+10:00
 draft: false
 weight: 2
 type: roadmap
 slug:
-summary: Our first housing site is collectively owned, retrofitted, lived-in and is on the pathway to being decommodified.
+summary: We've moved residents into our first house, ready to start our experiment in collective living.
 params:
-  status: in-progress
+  type: milestone
+  status:
 ---
