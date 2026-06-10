@@ -22,7 +22,6 @@
 /* Items List Layout */
 
 .roadmap-items {
-  max-width: var(--main-content-width);
   position: relative;
   margin-left: auto;
   margin-right: auto;
@@ -145,7 +144,7 @@ a.roadmap-item:hover {
 
 /* Timeline dot */
 
-.roadmap-rows > .roadmap-item-row::before {
+.roadmap-rows .roadmap-milestone-container .roadmap-item-row::before {
   content: "";
   height: 12px;
   width: 12px;
@@ -158,7 +157,7 @@ a.roadmap-item:hover {
 
 /* Item Row Leaf Node */
 
-.roadmap-rows > .roadmap-item-row {
+.roadmap-rows .roadmap-item-row {
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -172,35 +171,35 @@ a.roadmap-item:hover {
 }
 
 @media screen and (min-width: 481px) {
-  .roadmap-rows > .roadmap-item-row.not-section::before {
+  .roadmap-rows .roadmap-item-row.not-section::before {
     left: calc(50% - 7px);
     top: 50%;
     position: absolute;
   }
 
-  .roadmap-rows > .roadmap-item-row.not-section {
+  .roadmap-rows .roadmap-item-row.not-section {
     width: calc(50% - var(--page-gutter));
     justify-content: flex-start;
   }
 
-  .roadmap-rows > .roadmap-item-row.not-section:nth-child(odd) {
+  .roadmap-rows .roadmap-item-row.not-section:nth-child(odd) {
     padding-right: calc(50% + var(--page-gutter));
     justify-content: flex-end;
   }
 
-  .roadmap-rows > .roadmap-item-row.not-section:nth-child(even) {
+  .roadmap-rows .roadmap-item-row.not-section:nth-child(even) {
     padding-left: calc(50% + var(--page-gutter));
     justify-content: flex-start;
   }
 }
 
 @media screen and (max-width: 480px) {
-  .roadmap-rows > .roadmap-item-row.not-section {
+  .roadmap-rows .roadmap-item-row.not-section {
     padding-left: var(--page-gutter);
     width: calc(100% - var(--page-gutter));
   }
 
-  .roadmap-rows > .roadmap-item-row.not-section::before {
+  .roadmap-rows .roadmap-item-row.not-section::before {
     position: absolute;
     left: -6px;
     top: 50%;
@@ -209,12 +208,12 @@ a.roadmap-item:hover {
 
 /* Section Item Row */
 
-.roadmap-rows > .roadmap-item-row.is-section {
+.roadmap-rows .roadmap-item-row.is-section {
   flex-direction: column;
   align-items: center;
 }
 
-.roadmap-rows > .roadmap-item-row.is-section .roadmap-item-container {
+.roadmap-rows .roadmap-item-row.is-section .roadmap-item-container {
   min-width: 50%;
   display: flex;
   flex-direction: row;
@@ -222,25 +221,25 @@ a.roadmap-item:hover {
 }
 
 @media screen and (min-width: 481px) {
-  .roadmap-rows > .roadmap-item-row.is-section::before {
+  .roadmap-rows .roadmap-item-row.is-section::before {
     margin-bottom: -6px;
   }
 }
 
 @media screen and (max-width: 480px) {
-  .roadmap-rows > .roadmap-item-row.is-section {
+  .roadmap-rows .roadmap-item-row.is-section {
     padding-left: var(--page-gutter);
     width: calc(100% - var(--page-gutter));
   }
 
-  .roadmap-rows > .roadmap-item-row.is-section::before {
+  .roadmap-rows .roadmap-item-row.is-section::before {
     position: absolute;
     left: -6px;
     top: 50%;
   }
 }
 
-.roadmap-rows > .roadmap-item-row.is-section .sub-pages {
+.roadmap-rows .roadmap-item-row.is-section .sub-pages {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -251,13 +250,33 @@ a.roadmap-item:hover {
 
 /* Stream grouping */
 
+.roadmap-rows .roadmap-stream-group-container {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+@media screen and (max-width: 480px) {
+  .roadmap-rows .roadmap-stream-group-container {
+    margin-left: calc(-1 * var(--page-gutter));
+  }
+}
+
 .roadmap-rows .roadmap-stream-group {
+  width: 100%;
   display: flex;
   flex-direction: row;
+  align-items: stretch;
   gap: 1em;
-  margin-left: calc(-1 * var(--page-gutter));
-  margin-right: calc(-1 * var(--page-gutter));
   overflow-x: auto;
+  z-index: 10;
+}
+
+.roadmap-rows > .roadmap-stream-group-container > .roadmap-stream-group > .roadmap-item-row {
+  padding: 0;
+}
+
+.roadmap-rows .roadmap-stream-group > .roadmap-item-row > .roadmap-item-container {
+  height: 100%;
 }
 
 .roadmap-rows .roadmap-stream-group > .roadmap-item-row:first-child {
@@ -269,6 +288,12 @@ a.roadmap-item:hover {
 }
 
 /* Types: Milestone */
+
+.roadmap-rows .roadmap-milestone-container {
+  max-width: var(--main-content-width);
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .roadmap-item-row.type-milestone a.roadmap-item {
   border-radius: 0;

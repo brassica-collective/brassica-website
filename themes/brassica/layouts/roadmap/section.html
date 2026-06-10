@@ -12,12 +12,16 @@
         <div class="roadmap-rows">
           {{ range $groups }}
             {{ if eq .type "milestone" }}
-              {{ partial "roadmap_item.html" .page }}
+              <div class="roadmap-milestone-container">
+                {{ partial "roadmap_item.html" .page }}
+              </div>
             {{ else }}
-              <div class="roadmap-stream-group">
-                {{ range .pages }}
-                  {{ partial "roadmap_item.html" . }}
-                {{ end }}
+              <div class="roadmap-stream-group-container">
+                <div class="roadmap-stream-group">
+                  {{ range .pages }}
+                    {{ partial "roadmap_item.html" . }}
+                  {{ end }}
+                </div>
               </div>
             {{ end }}
           {{ end }}

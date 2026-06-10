@@ -7,5 +7,6 @@ type: roadmap
 slug:
 summary:
 params:
+  type: milestone
   status: draft
 ---
