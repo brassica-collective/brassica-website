@@ -249,6 +249,15 @@ a.roadmap-item:hover {
   margin-bottom: 10px;
 }
 
+/* Types: Milestone */
+
+.roadmap-item-row.type-milestone a.roadmap-item {
+  border-radius: 0;
+  background-color: var(--gumleaf8);
+  border-color: black;
+  /* color: black; */
+}
+
 /* Sub Pages */
 
 .roadmap-item-row .sub-pages .sub-page {
