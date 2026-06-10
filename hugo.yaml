@@ -20,4 +20,4 @@ menus:
 module:
   hugoVersion:
     extended: false
-    min: "0.146.0"
+    min: "0.151.2"
