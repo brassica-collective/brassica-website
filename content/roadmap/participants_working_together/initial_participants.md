@@ -5,7 +5,7 @@ draft: false
 weight: 1
 type: roadmap
 slug:
-summary:
+summary: Present the initial vision, call for interested participants and create a way for people to engage.
 params:
-  status: in-progress
+  status: complete
 ---
