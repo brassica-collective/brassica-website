@@ -1,8 +1,8 @@
 ---
-title: A plan to leverage each house for system change
+title: We are prepared to practice navigating conflict early & often
 date: 2025-10-01T09:00:00+10:00
 draft: false
-weight: 6
+weight: 1
 type: roadmap
 slug:
 summary:
