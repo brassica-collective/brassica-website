@@ -1,7 +1,7 @@
 {{/*
   Takes a page collection and returns a slice of groups.
   Each group is a dict with:
-    - "type": "milestone" | "stream | null"
+    - "type": the page's type param (e.g. "milestone") | "stream" | null
     - "page":  the milestone Page (when type = "milestone")
     - "pages": slice of stream Pages (when type = "stream")
 */}}
@@ -13,10 +13,10 @@
     {{ $current = $current | append . }}
   {{ else }}
     {{ if $current }}
-      {{ $groups  = $groups | append (dict "type" "streams" "pages" $current) }}
+      {{ $groups  = $groups | append (dict "type" "stream" "pages" $current) }}
       {{ $current = slice }}
     {{ end }}
-    {{ $groups = $groups | append (dict "type" "milestone" "page" .) }}
+    {{ $groups = $groups | append (dict "type" .Params.type "page" .) }}
   {{ end }}
 {{ end }}
 

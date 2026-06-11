@@ -11,11 +11,7 @@
       <div class="roadmap-items">
         <div class="roadmap-rows">
           {{ range $groups }}
-            {{ if eq .type "milestone" }}
-              <div class="roadmap-milestone-container">
-                {{ partial "roadmap_item.html" .page }}
-              </div>
-            {{ else }}
+            {{ if eq .type "stream" }}
               <div class="roadmap-stream-group-container">
                 <div class="roadmap-stream-group">
                   {{ range .pages }}
@@ -23,6 +19,12 @@
                   {{ end }}
                 </div>
               </div>
+            {{ else if eq .type "milestone" }}
+              <div class="roadmap-milestone-container">
+                {{ partial "roadmap_item.html" .page }}
+              </div>
+            {{ else }}
+                {{ partial "roadmap_item.html" .page }}
             {{ end }}
           {{ end }}
         </div>
