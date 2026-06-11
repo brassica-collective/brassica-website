@@ -333,7 +333,10 @@ a.roadmap-item:hover {
   border-radius: 0;
   background-color: var(--gumleaf8);
   border-color: black;
-  /* color: black; */
+}
+
+.roadmap-item-row.type-milestone a.roadmap-item h2 {
+  color: var(--burnt-orange1);
 }
 
 /* Sub Pages */
