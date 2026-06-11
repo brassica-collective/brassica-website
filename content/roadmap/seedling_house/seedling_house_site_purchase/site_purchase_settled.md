@@ -7,5 +7,5 @@ type: roadmap
 slug:
 summary: We have completed purchase of the site, and now own land and are presumably in debt to a bank.
 params:
-  status: draft
+  status:
 ---

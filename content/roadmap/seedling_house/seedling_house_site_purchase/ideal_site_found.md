@@ -7,5 +7,5 @@ type: roadmap
 slug:
 summary: We have found the site that we'd like to try and buy. This may need to happen more than once until we are able to make a successfull purchase.
 params:
-  status: draft
+  status:
 ---

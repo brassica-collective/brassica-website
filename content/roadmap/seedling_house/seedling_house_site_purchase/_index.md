@@ -7,5 +7,5 @@ type: roadmap
 slug:
 summary: We have completed our first house and land purchase.
 params:
-  status: in-progress
+  status:
 ---
