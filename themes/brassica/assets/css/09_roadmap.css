@@ -263,6 +263,8 @@ a.roadmap-item:hover {
   justify-content: center;
   gap: 1em;
   overflow-x: auto;
+  overflow-y: hidden;
+  padding-bottom: 10px;
   z-index: 10;
   width: 100%;
 }
