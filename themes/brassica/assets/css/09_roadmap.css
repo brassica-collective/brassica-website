@@ -67,6 +67,8 @@ a.roadmap-item {
   border-radius: 8px;
   box-shadow: 2px 3px 10px black;
   color: white;
+  display: flex;
+  flex-direction: column;
 }
 
 a.roadmap-item:hover {
@@ -77,6 +79,7 @@ a.roadmap-item:hover {
 
 .roadmap-item .details {
   padding: 0.8em 1em 1em 1em;
+  flex-grow: 1;
 }
 
 .roadmap-item h2 {
