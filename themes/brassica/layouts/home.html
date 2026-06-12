@@ -1,7 +1,34 @@
 {{ define "main" }}
   <div class="home on-earth">
     <article class="home-page">
-      {{ .Content }}
+      <div class="hero">
+        <div class="container">
+          <p>
+            <div class="slightly-dimmed">A project to</div>
+            <div class="rad-purpose">
+              <strong class="retrofit">Retrofit</strong> and
+              <strong class="decommodify">Decommodify</strong> housing
+              <strong class="collectively">Collectively</strong>, and in
+              <strong class="solidarity">Solidarity</strong>
+            </div>
+            <div class="slightly-dimmed">in northern suburban Naarm</div>
+          </p>
+        </div>
+      </div>
+
+      <section class="retrofit">
+        <div class="container">
+          <h2>Retrofit</h2>
+          <p>
+            We are working to retrofit existing housing stock to make it more
+            affordable, sustainable, and community-oriented. This includes
+            initiatives such as cooperative housing conversions, energy-efficient
+            upgrades, and the creation of shared living spaces.
+          </p>
+        </div>
+      </section>
+
+      {{/*  {{ .Content }}  */}}
     </article>
   </div>
 {{ end }}

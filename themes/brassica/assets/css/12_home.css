@@ -1,0 +1,31 @@
+.home {
+}
+
+article.home-page {
+  width: 100%;
+}
+
+.home-page .hero {
+  font-size: 2.2em;
+  line-height: 1.4;
+}
+
+.home-page .hero p {
+  margin: 0;
+}
+
+.home-page .hero .rad-purpose {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.home-page .hero .slightly-dimmed {
+  color: var(--earth0);
+}
+
+.home-page .container {
+  max-width: var(--main-content-width);
+  margin-left: auto;
+  margin-right: auto;
+  padding: var(--page-gutter) 0;
+}
