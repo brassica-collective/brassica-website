@@ -1,13 +1,13 @@
 .retrofit {
   --stream-color: var(--retrofit);
   --stream-background-color: var(--retrofit);
-  --text-color-on-background: black;
+  --text-color-on-background: white;
 }
 
 .decommodify {
   --stream-color: var(--decommodify);
   --stream-background-color: var(--decommodify);
-  --text-color-on-background: black;
+  --text-color-on-background: white;
 }
 
 .collectively {
