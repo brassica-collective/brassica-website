@@ -1,4 +1,4 @@
-<div class="roadmap-item-row {{ if .IsSection }}is-section{{ else }}not-section{{ end }} {{ if .Params.status }}has-status status-{{ .Params.status }}{{ end }} {{ if .Params.type }}type-{{ .Params.type }}{{ end }}">
+<div class="roadmap-item-row {{ if .IsSection }}is-section{{ else }}not-section{{ end }} {{ if .Params.status }}has-status status-{{ .Params.status }}{{ end }} {{ if .Params.type }}type-{{ .Params.type }}{{ end }} {{ if in (slice "retrofit" "decommodify" "collectively" "solidarity") .Params.stream }}{{ .Params.stream }} rad-stream{{ end }}">
   <div class="roadmap-item-container">
     <a class="roadmap-item" href="{{ .RelPermalink }}">
       {{ with .Params.stream }}

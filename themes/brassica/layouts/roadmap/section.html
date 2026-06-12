@@ -14,7 +14,7 @@
             {{ if eq .type "stream" }}
               <div class="roadmap-stream-group-container">
                 <div class="roadmap-stream-group">
-                  {{ range .pages }}
+                  {{ range partial "sort-by-rad-stream.html" .pages }}
                     {{ partial "roadmap_item.html" . }}
                   {{ end }}
                 </div>

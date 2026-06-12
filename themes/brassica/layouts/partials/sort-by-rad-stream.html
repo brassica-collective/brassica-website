@@ -1,0 +1,17 @@
+{{ $streamOrder := slice "retrofit" "decommodify" "collectively" "solidarity" }}
+{{ $pages := . }}
+{{ $sorted := slice }}
+{{ range $streamOrder }}
+  {{ $s := . }}
+  {{ range $pages }}
+    {{ if eq .Params.stream $s }}
+      {{ $sorted = $sorted | append . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ range $pages }}
+  {{ if not (in $streamOrder .Params.stream) }}
+    {{ $sorted = $sorted | append . }}
+  {{ end }}
+{{ end }}
+{{ return $sorted }}

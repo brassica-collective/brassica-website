@@ -304,6 +304,15 @@ a.roadmap-item:hover {
   padding: 0.2em 0.5em;
 }
 
+.roadmap-item-row.type-stream.rad-stream a.roadmap-item {
+  background-color: var(--stream-background-color);
+  color: var(--text-color-on-background);
+}
+
+.roadmap-item-row.type-stream.rad-stream a.roadmap-item h2 {
+  color: var(--text-color-on-background);
+}
+
 @media screen and (max-width: 480px) {
   .roadmap-rows .roadmap-stream-group-container {
     margin-left: calc(-1 * var(--page-gutter));
