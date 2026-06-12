@@ -1,23 +1,27 @@
 .retrofit {
   --stream-color: var(--retrofit);
+  --stream-color-on-dark: lch(from var(--retrofit) calc(l + 50) c h);
   --stream-background-color: var(--retrofit);
   --text-color-on-background: white;
 }
 
 .decommodify {
   --stream-color: var(--decommodify);
+  --stream-color-on-dark: lch(from var(--decommodify) calc(l + 20) c h);
   --stream-background-color: var(--decommodify);
   --text-color-on-background: white;
 }
 
 .collectively {
   --stream-color: var(--collectively);
+  --stream-color-on-dark: var(--collectively);
   --stream-background-color: var(--collectively);
   --text-color-on-background: black;
 }
 
 .solidarity {
   --stream-color: var(--solidarity);
+  --stream-color-on-dark: lch(from var(--solidarity) calc(l + 20) c h);
   --stream-background-color: var(--solidarity);
   --text-color-on-background: white;
 }

@@ -299,7 +299,7 @@ a.roadmap-item:hover {
 
 .stream-indicator {
   background-color: black;
-  color: var(--earth1);
+  color: var(--stream-color-on-dark);
   text-align: center;
   padding: 0.2em 0.5em;
 }
@@ -340,7 +340,7 @@ a.roadmap-item:hover {
 
 .roadmap-item-row.type-milestone a.roadmap-item {
   border-radius: 0;
-  background-color: var(--gumleaf8);
+  background-color: var(--earth5);
   border-color: black;
 }
 
