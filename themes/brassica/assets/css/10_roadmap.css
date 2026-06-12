@@ -340,8 +340,8 @@ a.roadmap-item:hover {
 
 .roadmap-item-row.type-milestone a.roadmap-item {
   border-radius: 0;
-  background-color: var(--earth5);
-  border-color: black;
+  background-color: var(--earth9);
+  border-color: var(--burnt-orange1);
 }
 
 .roadmap-item-row.type-milestone a.roadmap-item h2 {
