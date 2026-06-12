@@ -70,13 +70,10 @@
   --green8: #005c23;
   --green9: #00421c;
 
-  --cauliflower0: #ededed;
-  --purple5: #694582;
-
-  --retrofit: var(--gumleaf5);
-  --decommodify: var(--burnt-orange5);
+  --retrofit: #5a7f5d;
+  --decommodify: #9f2305;
   --collectively: #ffb300;
-  --solidarity: var(--purple5);
+  --solidarity: #694582;
 
   --main-content-width: 800px;
 

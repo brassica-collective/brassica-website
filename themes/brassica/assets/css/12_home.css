@@ -1,4 +1,5 @@
 .home {
+  font-size: 13pt;
 }
 
 article.home-page {
@@ -28,4 +29,10 @@ article.home-page {
   margin-left: auto;
   margin-right: auto;
   padding: var(--page-gutter) 0;
+}
+
+.home-page section .with-side-image {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
 }

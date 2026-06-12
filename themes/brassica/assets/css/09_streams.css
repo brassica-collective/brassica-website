@@ -29,10 +29,15 @@ strong.solidarity {
   color: var(--stream-color);
 }
 
-article section.retrofit,
-article section.decommodify,
-article section.collectively,
-article section.solidarity {
+article section.on-stream-background {
   background-color: var(--stream-background-color);
+  color: var(--text-color-on-background);
+}
+
+article section.on-stream-background h2,
+article section.on-stream-background h3,
+article section.on-stream-background h4,
+article section.on-stream-background h5,
+article section.on-stream-background h6 {
   color: var(--text-color-on-background);
 }
