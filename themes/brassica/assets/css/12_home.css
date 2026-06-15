@@ -161,3 +161,10 @@ article.home-page {
 .home-page .on-purple a.section-link {
   color: black;
 }
+
+.home-page .on-yellow {
+  --highlight-color: black;
+
+  background: var(--yellow);
+  color: black;
+}
