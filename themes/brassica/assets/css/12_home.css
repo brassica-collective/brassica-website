@@ -83,6 +83,26 @@ article.home-page {
 .home-page section.rad .rad-purpose {
   font-size: 2.2rem;
   line-height: 1.4em;
+  font-family: monospace;
+}
+
+.home-page .rad-purpose .retrofit {
+  background-color: var(--retrofit);
+  color: white;
+  padding: 0 0.2em;
+}
+
+.home-page .rad-purpose .decommodify {
+  background-color: var(--decommodify);
+  color: white;
+  padding: 0 0.2em;
+}
+
+.home-page .rad-purpose .collectively,
+.home-page .rad-purpose .solidarity {
+  background-color: white;
+  color: black;
+  padding: 0 0.2em;
 }
 
 .home-page section.project,
