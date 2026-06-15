@@ -6,21 +6,16 @@ article.home-page {
   width: 100%;
 }
 
-.home-page .hero {
+.home-page .home-hero {
   font-size: 2.2em;
   line-height: 1.4;
 }
 
-.home-page .hero p {
+.home-page .home-hero p {
   margin: 0;
 }
 
-.home-page .hero .rad-purpose {
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-}
-
-.home-page .hero .slightly-dimmed {
+.home-page .home-hero .slightly-dimmed {
   color: var(--earth0);
 }
 
@@ -31,8 +26,114 @@ article.home-page {
   padding: var(--page-gutter) 0;
 }
 
+.home-page section p:first-child {
+  margin-top: 0;
+}
+
+.home-page .section-link-container {
+  text-align: right;
+}
+
+.home-page a.section-link {
+  --height: 40px;
+  --color: var(--highlight-color);
+
+  background-color: var(--color);
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  padding: 0 0.5em;
+  font-size: 1.5rem;
+  position: relative;
+  height: var(--height);
+  line-height: var(--height);
+}
+
+.home-page a.section-link:after {
+  --half-height: calc(var(--height) * 0.5);
+
+  content: "";
+  display: block;
+  height: 0;
+  width: 0;
+  position: absolute;
+  top: 0;
+  right: calc(-1 * var(--half-height));
+  border-left: var(--half-height) solid var(--color);
+  border-top: var(--half-height) solid transparent;
+  border-bottom: var(--half-height) solid transparent;
+}
+
 .home-page section .with-side-image {
   display: flex;
   flex-direction: row;
   gap: 1em;
+}
+
+.home-page section.home-hero {
+  background: linear-gradient(to bottom, var(--earth6) 0%, var(--earth8) 60%, var(--earth9) 90%, #000000 100%);
+}
+
+.home-page section.rad {
+  background-color: #000000;
+  font-size: 1.2rem;
+}
+
+.home-page section.rad .rad-purpose {
+  font-size: 2.2rem;
+  line-height: 1.4em;
+}
+
+.home-page section.values {
+  font-size: 1.7em;
+}
+
+.home-page section.project {
+  font-size: 1.7rem;
+}
+
+.home-page section.seedling {
+  background-color: var(--gumleaf3);
+}
+
+.home-page section.values strong {
+  color: black;
+}
+
+.home-page section.multi-house {
+  font-size: 1.5rem;
+}
+
+.home-page section.multi-house h2 {
+  font-size: 2rem;
+}
+
+/* COLOR SECTIONS */
+
+.home-page .on-cauli {
+  --highlight-color: var(--gumleaf5);
+
+  background-color: #eee7cc;
+  color: black;
+}
+
+.home-page .on-earth {
+  --highlight-color: var(--gumleaf5);
+
+  background: var(--earth7);
+}
+
+.home-page .on-gumleaf {
+  --highlight-color: #694582;
+
+  background-color: var(--gumleaf5);
+  color: black;
+}
+
+.home-page section.on-gumleaf h2 {
+  color: var(--earth7);
+}
+
+.home-page section.on-gumleaf ul {
+  color: var(--earth8);
 }
