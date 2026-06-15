@@ -38,12 +38,13 @@ article.home-page {
   --height: 40px;
   --color: var(--highlight-color);
 
+  font-weight: bold;
+  font-size: 1.3rem;
   background-color: var(--color);
   color: white;
   display: inline-block;
   text-decoration: none;
   padding: 0 0.5em;
-  font-size: 1.5rem;
   position: relative;
   height: var(--height);
   line-height: var(--height);
@@ -84,16 +85,9 @@ article.home-page {
   line-height: 1.4em;
 }
 
+.home-page section.project,
 .home-page section.values {
-  font-size: 1.7em;
-}
-
-.home-page section.project {
   font-size: 1.7rem;
-}
-
-.home-page section.seedling {
-  background-color: var(--gumleaf3);
 }
 
 .home-page section.values strong {
@@ -113,7 +107,7 @@ article.home-page {
 .home-page .on-cauli {
   --highlight-color: var(--gumleaf5);
 
-  background-color: #eee7cc;
+  background-color: var(--cauliflower);
   color: black;
 }
 
@@ -136,4 +130,14 @@ article.home-page {
 
 .home-page section.on-gumleaf ul {
   color: var(--earth8);
+}
+
+.home-page .on-purple {
+  --highlight-color: var(--cauliflower);
+
+  background: var(--purple);
+}
+
+.home-page .on-purple a.section-link {
+  color: black;
 }
