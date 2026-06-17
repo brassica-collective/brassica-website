@@ -8,6 +8,6 @@ slug:
 summary: We develop tools for relating well while sharing basic needs, and we do so imbedded in community and in solidarity with broader movements.
 params:
   type: stream
-  stream: behavioural
+  stream: collectively
   status:
 ---
