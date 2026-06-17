@@ -22,7 +22,7 @@
 
 {{/* flush any trailing non-milestone pages */}}
 {{ if $current }}
-  {{ $groups = $groups | append (dict "type" "streams" "pages" $current) }}
+  {{ $groups = $groups | append (dict "type" "stream" "pages" $current) }}
 {{ end }}
 
 {{ return $groups }}
