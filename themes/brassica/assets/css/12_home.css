@@ -106,7 +106,8 @@ article.home-page {
 }
 
 .home-page section.project,
-.home-page section.values {
+.home-page section.values,
+.home-page section.seedling {
   font-size: 1.7rem;
 }
 
@@ -138,7 +139,7 @@ article.home-page {
 }
 
 .home-page .on-gumleaf {
-  --highlight-color: #694582;
+  --highlight-color: var(--purple);
 
   background-color: var(--gumleaf5);
   color: black;
@@ -148,7 +149,8 @@ article.home-page {
   color: var(--earth7);
 }
 
-.home-page section.on-gumleaf ul {
+.home-page section.on-gumleaf ul,
+.home-page section.on-gumleaf strong {
   color: var(--earth8);
 }
 
