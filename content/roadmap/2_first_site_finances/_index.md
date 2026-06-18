@@ -5,7 +5,7 @@ draft: false
 weight: 2
 type: roadmap
 slug:
-summary: We have the setup capital, a viable budget, a load approved and clear financial agreements.
+summary: We have the setup capital, a viable budget, a loan approved and clear financial agreements.
 params:
   type: stream
   stream: decommodify
