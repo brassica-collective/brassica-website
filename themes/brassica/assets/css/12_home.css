@@ -6,19 +6,6 @@ article.home-page {
   width: 100%;
 }
 
-.home-page .home-hero {
-  font-size: 2.2em;
-  line-height: 1.4;
-}
-
-.home-page .home-hero p {
-  margin: 0;
-}
-
-.home-page .home-hero .slightly-dimmed {
-  color: var(--earth0);
-}
-
 .home-page .container {
   max-width: var(--main-content-width);
   margin-left: auto;
@@ -72,18 +59,47 @@ article.home-page {
 }
 
 .home-page section.home-hero {
-  background: linear-gradient(to bottom, var(--earth6) 0%, var(--earth8) 60%, var(--earth9) 90%, #000000 100%);
+  font-size: 2.2em;
+  line-height: 1.4;
+  position: relative;
+
+  background-color: white;
+  background-image: url("/images/sections/bricks_background.svg");
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+  background-position: center;
+
+  color: var(--cauliflower);
 }
 
-.home-page section.rad {
-  background-color: #000000;
+.home-page section.home-hero .home-hero-inner {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 1) 100%);
+}
+
+.home-page section.home-hero p {
+  margin: 0;
+}
+
+.home-page section.home-hero h1 {
+  margin: 0;
+  color: var(--cauliflower);
+}
+
+.home-page section.home-hero .slightly-dimmed {
+  color: var(--cauliflower);
+}
+
+.home-page section.home-hero .rad {
+  /*background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));*/
   font-size: 1.2rem;
 }
 
-.home-page section.rad .rad-purpose {
+.home-page .rad .rad-purpose {
   font-size: 2.2rem;
   line-height: 1.4em;
   font-family: monospace;
+  padding-bottom: calc(var(--page-gutter) * 0.5);
+  padding-top: 0.5rem;
 }
 
 .home-page .rad-purpose .retrofit {
@@ -124,7 +140,7 @@ article.home-page {
   font-size: 2rem;
 }
 
-.home-page section.topic {
+.home-page .topic {
   background-color: var(--background-color);
   color: var(--color);
 
@@ -133,7 +149,7 @@ article.home-page {
   background-size: cover;
 }
 
-.home-page section.topic .container {
+.home-page .topic .container {
   padding: calc(var(--page-gutter) * 2) 0;
 }
 
@@ -172,27 +188,4 @@ article.home-page {
 
   background-image: url("/images/sections/dirt_background.svg");
   background-position: center;
-}
-
-.home-page .on-gumleaf {
-  --highlight-color: var(--purple);
-
-  background-color: var(--gumleaf5);
-  color: black;
-}
-
-.home-page section.on-gumleaf h2 {
-  color: var(--earth7);
-}
-
-.home-page section.on-gumleaf ul,
-.home-page section.on-gumleaf strong {
-  color: var(--earth8);
-}
-
-.home-page .on-yellow {
-  --highlight-color: black;
-
-  background: var(--yellow);
-  color: black;
 }

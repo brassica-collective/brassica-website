@@ -6,12 +6,10 @@ header {
   background: var(--leaf);
   display: flex;
   color: var(--color);
-  /* padding: 0 var(--page-gutter); */
   padding: 0;
   align-items: stretch;
   justify-content: space-between;
   height: 70px;
-  border-bottom: 2px solid black;
 }
 
 header .brand {
