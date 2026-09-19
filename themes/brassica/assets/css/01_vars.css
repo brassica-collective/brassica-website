@@ -4,6 +4,22 @@
   --breakpoint-sm: 480px;
 
   /* COLOURS */
+
+  /* Main Pallette */
+
+  --leaf: #647d70;
+  --leaf-lighter: #789385;
+
+  --purple: #806d88;
+
+  --cauliflower: #ede6cb;
+  --cauliflower-lighter: #f6f2e5;
+
+  --blueprint: #323f55;
+  --dirt: #635049;
+
+  /* Legacy colours */
+
   --earth0: #d1b5af;
   --earth1: #c19c94;
   --earth2: #a3867a;
@@ -70,8 +86,8 @@
   --green8: #005c23;
   --green9: #00421c;
 
-  --purple: #694582;
-  --cauliflower: #eee7cc;
+  /*--purple: #694582;
+  --cauliflower: #eee7cc;*/
   --yellow: #ddc911;
 
   --retrofit: #244410;
