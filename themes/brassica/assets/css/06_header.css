@@ -9,7 +9,7 @@ header {
   padding: 0;
   align-items: stretch;
   justify-content: space-between;
-  height: 70px;
+  min-height: 70px;
 }
 
 header .brand {
@@ -17,6 +17,8 @@ header .brand {
   flex-direction: column;
   justify-content: center;
   margin-left: var(--page-gutter);
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 header h1 {
