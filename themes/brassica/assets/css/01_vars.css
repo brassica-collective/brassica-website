@@ -100,7 +100,7 @@
 
   --main-content-width: 800px;
 
-  --page-gutter: 1.5em;
+  --page-gutter: 1.5rem;
 }
 
 @media screen and (max-width: 480px) {

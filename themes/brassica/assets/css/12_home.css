@@ -10,7 +10,7 @@ article.home-page {
   max-width: var(--main-content-width);
   margin-left: auto;
   margin-right: auto;
-  padding: var(--page-gutter) 0;
+  padding: var(--page-gutter);
 }
 
 .home-page section p:first-child {
@@ -35,6 +35,7 @@ article.home-page {
   position: relative;
   height: var(--height);
   line-height: var(--height);
+  margin-right: calc(var(--height) / 2);
 }
 
 .home-page a.section-link:after {
@@ -150,7 +151,8 @@ article.home-page {
 }
 
 .home-page .topic .container {
-  padding: calc(var(--page-gutter) * 2) 0;
+  padding-top: calc(var(--page-gutter) * 2);
+  padding-bottom: calc(var(--page-gutter) * 2);
 }
 
 /* COLOR SECTIONS */
