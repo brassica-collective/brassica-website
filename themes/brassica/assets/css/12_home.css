@@ -139,10 +139,16 @@ article.home-page {
 }
 
 .home-page .on-cauli {
-  --highlight-color: var(--gumleaf5);
+  --highlight-color: var(--dirt);
+  --background-color: var(--cauliflower);
+  --color: var(--dirt);
 
-  background-color: var(--cauliflower);
-  color: black;
+  background-color: var(--background-color);
+  color: var(--color);
+  background-image: url("/images/sections/cauli_background.svg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
 }
 
 .home-page .on-earth {
