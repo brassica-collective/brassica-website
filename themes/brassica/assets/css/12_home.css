@@ -111,7 +111,8 @@ article.home-page {
   font-size: 1.7rem;
 }
 
-.home-page section strong {
+.home-page section strong,
+.home-page section h2 {
   color: var(--highlight-color);
 }
 
@@ -121,6 +122,10 @@ article.home-page {
 
 .home-page section.multi-house h2 {
   font-size: 2rem;
+}
+
+.home-page section.topic .container {
+  padding: calc(var(--page-gutter) * 2) 0;
 }
 
 /* COLOR SECTIONS */
@@ -149,6 +154,19 @@ article.home-page {
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
+}
+
+.home-page .on-blue {
+  --highlight-color: var(--pink);
+  --background-color: var(--blueprint);
+  --color: var(--pink);
+
+  background-color: var(--background-color);
+  color: var(--color);
+  background-image: url("/images/sections/blueprint_background.svg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: contain;
 }
 
 .home-page .on-earth {
