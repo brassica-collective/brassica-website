@@ -124,6 +124,15 @@ article.home-page {
   font-size: 2rem;
 }
 
+.home-page section.topic {
+  background-color: var(--background-color);
+  color: var(--color);
+
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
+
 .home-page section.topic .container {
   padding: calc(var(--page-gutter) * 2) 0;
 }
@@ -135,12 +144,7 @@ article.home-page {
   --background-color: var(--purple);
   --color: var(--yellow);
 
-  background-color: var(--background-color);
-  color: var(--color);
   background-image: url("/images/sections/purple_background.svg");
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-size: cover;
 }
 
 .home-page .on-cauli {
@@ -148,12 +152,7 @@ article.home-page {
   --background-color: var(--cauliflower);
   --color: var(--dirt);
 
-  background-color: var(--background-color);
-  color: var(--color);
   background-image: url("/images/sections/cauli_background.svg");
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-size: cover;
 }
 
 .home-page .on-blue {
@@ -161,18 +160,18 @@ article.home-page {
   --background-color: var(--blueprint);
   --color: var(--pink);
 
-  background-color: var(--background-color);
-  color: var(--color);
   background-image: url("/images/sections/blueprint_background.svg");
-  background-repeat: no-repeat;
-  background-position: center top;
   background-size: contain;
+  background-position: center bottom;
 }
 
-.home-page .on-earth {
-  --highlight-color: var(--gumleaf5);
+.home-page .on-dirt {
+  --highlight-color: var(--grass);
+  --background-color: var(--dirt);
+  --color: var(--grass);
 
-  background: var(--earth7);
+  background-image: url("/images/sections/dirt_background.svg");
+  background-position: center;
 }
 
 .home-page .on-gumleaf {
