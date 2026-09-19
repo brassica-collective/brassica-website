@@ -103,7 +103,7 @@
   --page-gutter: 1.5rem;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 576px) {
   :root {
     --page-gutter: 1em;
   }

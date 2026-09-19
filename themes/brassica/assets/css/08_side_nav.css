@@ -37,7 +37,7 @@ nav.side-nav a.active {
   color: black;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 576px) {
   nav.side-nav {
     display: none;
   }

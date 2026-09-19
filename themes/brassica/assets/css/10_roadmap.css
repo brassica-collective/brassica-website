@@ -50,7 +50,7 @@
   margin-bottom: 2em;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 576px) {
   .roadmap-items:before {
     left: 0;
   }
@@ -196,7 +196,7 @@ a.roadmap-item:hover {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 576px) {
   .roadmap-rows .roadmap-item-row.not-section {
     padding-left: var(--page-gutter);
     width: calc(100% - var(--page-gutter));
@@ -229,7 +229,7 @@ a.roadmap-item:hover {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 576px) {
   .roadmap-rows .roadmap-item-row.is-section {
     padding-left: var(--page-gutter);
     width: calc(100% - var(--page-gutter));
@@ -313,7 +313,7 @@ a.roadmap-item:hover {
   color: var(--text-color-on-background);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 576px) {
   .roadmap-rows .roadmap-stream-group-container {
     margin-left: calc(-1 * var(--page-gutter));
     margin-right: calc(-1 * var(--page-gutter));
@@ -415,7 +415,7 @@ article.roadmap-item-page .article-header .status-indicator:after {
   border-right: calc(var(--height) / 2) solid var(--status-color, var(--grey3));
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 576px) {
   article.roadmap-item-page .article-header {
     flex-direction: column;
     gap: 0.5em;
@@ -492,7 +492,7 @@ article.roadmap-item-page .article-header .status-indicator:after {
   border-bottom: none;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 576px) {
   .roadmap-side-nav {
     display: none;
   }

@@ -190,4 +190,8 @@ article.home-page {
 
   background-image: url("/images/sections/dirt_background.svg");
   background-position: center;
+
+  @media screen and (max-width: 576px) {
+    background-size: contain;
+  }
 }
