@@ -1,15 +1,15 @@
 /* Header */
 
 header {
-  background-color: var(--earth8);
-  background: linear-gradient(to bottom, var(--gumleaf6), var(--gumleaf4));
+  --color: var(--cauliflower);
+
+  background: var(--leaf);
   display: flex;
-  /* padding: 0 var(--page-gutter); */
+  color: var(--color);
   padding: 0;
   align-items: stretch;
   justify-content: space-between;
-  height: 70px;
-  border-bottom: 2px solid black;
+  min-height: 70px;
 }
 
 header .brand {
@@ -17,6 +17,8 @@ header .brand {
   flex-direction: column;
   justify-content: center;
   margin-left: var(--page-gutter);
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 header h1 {
@@ -27,7 +29,7 @@ header h1 {
 }
 
 header h1 a {
-  color: black;
+  color: var(--color);
   text-decoration: none;
 }
 
@@ -64,9 +66,9 @@ header nav a {
 }
 
 header nav a:hover {
-  color: black;
+  color: var(--cauliflower-lighter);
   text-decoration: underline;
-  background: linear-gradient(to bottom, var(--gumleaf4), var(--gumleaf2));
+  background: var(--leaf-lighter);
 }
 
 /* "Hide" checkbox -- moves it off screen*/

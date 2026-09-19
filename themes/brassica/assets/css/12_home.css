@@ -6,24 +6,11 @@ article.home-page {
   width: 100%;
 }
 
-.home-page .home-hero {
-  font-size: 2.2em;
-  line-height: 1.4;
-}
-
-.home-page .home-hero p {
-  margin: 0;
-}
-
-.home-page .home-hero .slightly-dimmed {
-  color: var(--earth0);
-}
-
 .home-page .container {
   max-width: var(--main-content-width);
   margin-left: auto;
   margin-right: auto;
-  padding: var(--page-gutter) 0;
+  padding: var(--page-gutter);
 }
 
 .home-page section p:first-child {
@@ -40,14 +27,15 @@ article.home-page {
 
   font-weight: bold;
   font-size: 1.3rem;
-  background-color: var(--color);
-  color: white;
+  background-color: var(--highlight-color);
+  color: var(--background-color);
   display: inline-block;
   text-decoration: none;
   padding: 0 0.5em;
   position: relative;
   height: var(--height);
   line-height: var(--height);
+  margin-right: calc(var(--height) / 2);
 }
 
 .home-page a.section-link:after {
@@ -72,18 +60,47 @@ article.home-page {
 }
 
 .home-page section.home-hero {
-  background: linear-gradient(to bottom, var(--earth6) 0%, var(--earth8) 60%, var(--earth9) 90%, #000000 100%);
+  font-size: 2.2em;
+  line-height: 1.4;
+  position: relative;
+
+  background-color: white;
+  background-image: url("/images/sections/bricks_background.svg");
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+  background-position: center;
+
+  color: var(--cauliflower);
 }
 
-.home-page section.rad {
-  background-color: #000000;
+.home-page section.home-hero .home-hero-inner {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 1) 100%);
+}
+
+.home-page section.home-hero p {
+  margin: 0;
+}
+
+.home-page section.home-hero h1 {
+  margin: 0;
+  color: var(--cauliflower);
+}
+
+.home-page section.home-hero .slightly-dimmed {
+  color: var(--cauliflower);
+}
+
+.home-page section.home-hero .rad {
+  /*background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));*/
   font-size: 1.2rem;
 }
 
-.home-page section.rad .rad-purpose {
+.home-page .rad .rad-purpose {
   font-size: 2.2rem;
   line-height: 1.4em;
   font-family: monospace;
+  padding-bottom: calc(var(--page-gutter) * 0.5);
+  padding-top: 0.5rem;
 }
 
 .home-page .rad-purpose .retrofit {
@@ -111,8 +128,9 @@ article.home-page {
   font-size: 1.7rem;
 }
 
-.home-page section.values strong {
-  color: black;
+.home-page section strong,
+.home-page section h2 {
+  color: var(--highlight-color);
 }
 
 .home-page section.multi-house {
@@ -123,50 +141,53 @@ article.home-page {
   font-size: 2rem;
 }
 
+.home-page .topic {
+  background-color: var(--background-color);
+  color: var(--color);
+
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
+
+.home-page .topic .container {
+  padding-top: calc(var(--page-gutter) * 2);
+  padding-bottom: calc(var(--page-gutter) * 2);
+}
+
 /* COLOR SECTIONS */
 
-.home-page .on-cauli {
-  --highlight-color: var(--gumleaf5);
-
-  background-color: var(--cauliflower);
-  color: black;
-}
-
-.home-page .on-earth {
-  --highlight-color: var(--gumleaf5);
-
-  background: var(--earth7);
-}
-
-.home-page .on-gumleaf {
-  --highlight-color: var(--purple);
-
-  background-color: var(--gumleaf5);
-  color: black;
-}
-
-.home-page section.on-gumleaf h2 {
-  color: var(--earth7);
-}
-
-.home-page section.on-gumleaf ul,
-.home-page section.on-gumleaf strong {
-  color: var(--earth8);
-}
-
 .home-page .on-purple {
-  --highlight-color: var(--cauliflower);
+  --highlight-color: var(--yellow);
+  --background-color: var(--purple);
+  --color: var(--yellow);
 
-  background: var(--purple);
+  background-image: url("/images/sections/purple_background.svg");
 }
 
-.home-page .on-purple a.section-link {
-  color: black;
+.home-page .on-cauli {
+  --highlight-color: var(--dirt);
+  --background-color: var(--cauliflower);
+  --color: var(--dirt);
+
+  background-image: url("/images/sections/cauli_background.svg");
 }
 
-.home-page .on-yellow {
-  --highlight-color: black;
+.home-page .on-blue {
+  --highlight-color: var(--pink);
+  --background-color: var(--blueprint);
+  --color: var(--pink);
 
-  background: var(--yellow);
-  color: black;
+  background-image: url("/images/sections/blueprint_background.svg");
+  background-size: contain;
+  background-position: center bottom;
+}
+
+.home-page .on-dirt {
+  --highlight-color: var(--grass);
+  --background-color: var(--dirt);
+  --color: var(--grass);
+
+  background-image: url("/images/sections/dirt_background.svg");
+  background-position: center;
 }
