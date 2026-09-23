@@ -36,6 +36,10 @@ nav.side-nav a.active {
   color: var(--cauliflower);
 }
 
+.with-side-nav > .content {
+  width: 100%;
+}
+
 @media screen and (max-width: 576px) {
   main .with-side-nav {
     flex-direction: column;

@@ -5,8 +5,12 @@ article.home {
 }
 
 article.docs-page {
-  padding: var(--page-gutter);
+  /* padding: var(--page-gutter); */
   min-height: 80vh;
+}
+
+article.docs-page .article-inner {
+  padding: var(--page-gutter);
 }
 
 article nav.between-pages {
