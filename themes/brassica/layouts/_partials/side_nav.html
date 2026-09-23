@@ -14,10 +14,14 @@ T . }} {{- $name = . }} {{- end }} {{- end }}
             {{- printf " %s=%q" $k $v | safeHTMLAttr }}
           {{- end }}
         {{- end -}}>{{ $name }}</a>
+  {{- $isCurrent := $page.IsMenuCurrent .Menu . }}
+  {{- $isAncestor := $page.HasMenuCurrent .Menu . }}
+  {{- if or $isCurrent $isAncestor }}
   {{- with .Children }}
   <ul>
     {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" .) }}
   </ul>
+  {{- end }}
   {{- end }}
 </li>
 {{- end }} {{- end }}
