@@ -1,0 +1,33 @@
+.on-dirt {
+  color: var(--cauliflower-lighter);
+  background-color: var(--dirt);
+
+  h1,
+  h2,
+  h3,
+  h4,
+  strong {
+    color: var(--grass);
+  }
+
+  em,
+  ` ul {
+    color: var(---cauliflower);
+  }
+
+  a,
+  a:hover,
+  a:visited,
+  a:link,
+  a:active {
+    color: var(--grass);
+  }
+
+  a:hover {
+    color: var(--grass-lighter);
+  }
+
+  nav.between-pages {
+    border-color: var(--dirt-lighter);
+  }
+}

@@ -62,7 +62,7 @@ a.roadmap-item {
   text-decoration: none;
   min-width: 200px;
   max-width: 500px;
-  background-color: var(--earth5);
+  background-color: var(--dirt);
   border: 2px solid black;
   border-radius: 8px;
   box-shadow: 2px 3px 10px black;
@@ -74,7 +74,7 @@ a.roadmap-item {
 a.roadmap-item:hover {
   text-decoration: none;
   color: inherit;
-  background-color: var(--earth4);
+  background-color: var(--dirt);
 }
 
 .roadmap-item .details {
@@ -340,7 +340,7 @@ a.roadmap-item:hover {
 
 .roadmap-item-row.type-milestone a.roadmap-item {
   border-radius: 0;
-  background-color: var(--earth9);
+  background-color: var(--dirt);
   border-color: var(--burnt-orange1);
 }
 

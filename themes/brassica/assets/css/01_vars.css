@@ -10,30 +10,24 @@
   --leaf: #647d70;
   --leaf-lighter: #789385;
 
+  --purple-darker: #5a4b6b;
   --purple: #806d88;
 
   --cauliflower: #ede6cb;
   --cauliflower-lighter: #f6f2e5;
 
   --blueprint: #323f55;
+
   --dirt: #635049;
+  --dirt-lighter: #7a5e50;
 
   --yellow: #ffdd62;
   --pink: #e19f83;
+
   --grass: #d0d882;
+  --grass-lighter: #e0e8b0;
 
   /* Legacy colours */
-
-  --earth0: #d1b5af;
-  --earth1: #c19c94;
-  --earth2: #a3867a;
-  --earth3: #85625f;
-  --earth4: #664945;
-  --earth5: #4d2f2a;
-  --earth6: #34221e;
-  --earth7: #271916;
-  --earth8: #1a110f;
-  --earth9: #0d0807;
 
   --grey0: #f1f4fe;
   --grey1: #e4e6ed;
