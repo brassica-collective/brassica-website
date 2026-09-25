@@ -190,9 +190,13 @@ article.home-page {
   --background-color: var(--blueprint);
   --color: var(--pink);
 
-  background-image: url("/images/sections/blueprint_background.svg");
+  background-image: url("/images/sections/blueprint/background_landscape.svg");
   background-size: contain;
   background-position: center bottom;
+
+  @media screen and (max-width: 576px) {
+    background-image: url("/images/sections/blueprint/background_portrait.svg");
+  }
 }
 
 .home-page .on-dirt {
