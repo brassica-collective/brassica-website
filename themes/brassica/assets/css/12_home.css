@@ -204,10 +204,15 @@ article.home-page {
   --background-color: var(--dirt);
   --color: var(--grass);
 
-  background-image: url("/images/sections/dirt_background.svg");
+  background-image: url("/images/sections/dirt/background_landscape.svg");
   background-position: center;
+
+  @media screen and (max-width: 700px) {
+    background-size: contain;
+  }
 
   @media screen and (max-width: 576px) {
     background-size: contain;
+    background-image: url("/images/sections/dirt/background_portrait.svg");
   }
 }
