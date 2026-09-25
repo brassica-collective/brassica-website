@@ -166,7 +166,11 @@ article.home-page {
   --background-color: var(--purple);
   --color: var(--yellow);
 
-  background-image: url("/images/sections/purple_background.svg");
+  background-image: url("/images/sections/purple/background_landscape.svg");
+
+  @media screen and (max-width: 576px) {
+    background-image: url("/images/sections/purple/background_portrait.svg");
+  }
 }
 
 .home-page .on-cauli {
