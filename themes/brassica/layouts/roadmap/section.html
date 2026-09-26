@@ -1,42 +1,32 @@
 {{ define "main" }}
-  <div class="on-dirt">
-    <div class="roadmap-page grid-paper">
-      <div class="section-header">
-        <h1>{{ .Title }}</h1>
-        <div class="content">{{ .Content }}</div>
-      </div>
+<div class="on-blue">
+  <div class="roadmap-page grid-paper">
+    <div class="section-header">
+      <h1>{{ .Title }}</h1>
+      <div class="content">{{ .Content }}</div>
+    </div>
 
-      {{ $groups := partial "group-by-milestone.html" .Pages }}
+    {{ $groups := partial "group-by-milestone.html" .Pages }}
 
-      <div class="roadmap-items">
-        <div class="roadmap-rows">
-          {{ range $groups }}
-            {{ if eq .type "stream" }}
-              <div class="roadmap-stream-group-container">
-                <div class="roadmap-stream-group">
-                  {{ range partial "sort-by-rad-stream.html" .pages }}
-                    {{ partial "roadmap_item.html" . }}
-                  {{ end }}
-                </div>
-              </div>
-            {{ else if eq .type "milestone" }}
-              <div class="roadmap-milestone-container">
-                {{ partial "roadmap_item.html" .page }}
-              </div>
-            {{ else }}
-                {{ partial "roadmap_item.html" .page }}
-            {{ end }}
-          {{ end }}
+    <div class="roadmap-items">
+      <div class="roadmap-rows">
+        {{ range $groups }} {{ if eq .type "stream" }}
+        <div class="roadmap-stream-group-container">
+          <div class="roadmap-stream-group">{{ range partial "sort-by-rad-stream.html" .pages }} {{ partial "roadmap_item.html" . }} {{ end }}</div>
         </div>
+        {{ else if eq .type "milestone" }}
+        <div class="roadmap-milestone-container">{{ partial "roadmap_item.html" .page }}</div>
+        {{ else }} {{ partial "roadmap_item.html" .page }} {{ end }} {{ end }}
       </div>
+    </div>
 
-      <div class="roadmap-footer">
-        <div class="parent-page-link">
-          {{ with .Parent }}
-            <a href="{{ .RelPermalink }}"><span class="back-arrow">←</span> back to {{ .Title }}</a>
-          {{ end }}
-        </div>
+    <div class="roadmap-footer">
+      <div class="parent-page-link">
+        {{ with .Parent }}
+        <a href="{{ .RelPermalink }}"><span class="back-arrow">←</span> back to {{ .Title }}</a>
+        {{ end }}
       </div>
     </div>
   </div>
+</div>
 {{ end }}

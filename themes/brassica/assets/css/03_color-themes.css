@@ -11,8 +11,8 @@
   }
 
   em,
-  ` ul {
-    color: var(---cauliflower);
+  ul {
+    color: var(--cauliflower);
   }
 
   a,
@@ -29,5 +29,22 @@
 
   nav.between-pages {
     border-color: var(--dirt-lighter);
+  }
+}
+
+.on-blue {
+  --highlight-color: var(--pink);
+  --background-color: var(--blueprint);
+  --color: white;
+
+  background-color: var(--background-color);
+  color: var(--color);
+
+  h1,
+  h2,
+  h3,
+  h4,
+  strong {
+    color: var(--highlight-color);
   }
 }
