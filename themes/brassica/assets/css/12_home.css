@@ -96,34 +96,40 @@ article.home-page {
   .rad {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 1) 100%);
     font-size: 1.2rem;
+
+    a,
+    a:link,
+    a:visited {
+      color: rgb(0, 138, 230);
+    }
+
+    .rad-purpose {
+      font-size: 2.2rem;
+      line-height: 1.4em;
+      font-family: monospace;
+      padding-bottom: calc(var(--page-gutter) * 0.5);
+      padding-top: 0.5rem;
+
+      .retrofit {
+        background-color: var(--retrofit);
+        color: white;
+        padding: 0 0.2em;
+      }
+
+      .decommodify {
+        background-color: var(--decommodify);
+        color: white;
+        padding: 0 0.2em;
+      }
+
+      .collectively,
+      .solidarity {
+        background-color: white;
+        color: black;
+        padding: 0 0.2em;
+      }
+    }
   }
-}
-
-.home-page .rad .rad-purpose {
-  font-size: 2.2rem;
-  line-height: 1.4em;
-  font-family: monospace;
-  padding-bottom: calc(var(--page-gutter) * 0.5);
-  padding-top: 0.5rem;
-}
-
-.home-page .rad-purpose .retrofit {
-  background-color: var(--retrofit);
-  color: white;
-  padding: 0 0.2em;
-}
-
-.home-page .rad-purpose .decommodify {
-  background-color: var(--decommodify);
-  color: white;
-  padding: 0 0.2em;
-}
-
-.home-page .rad-purpose .collectively,
-.home-page .rad-purpose .solidarity {
-  background-color: white;
-  color: black;
-  padding: 0 0.2em;
 }
 
 .home-page section.project,
