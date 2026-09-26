@@ -108,21 +108,21 @@ a.roadmap-item {
 }
 
 .has-status.status-in-progress {
-  --status-color: var(--burnt-orange4);
-  --status-color-highlight: var(--burnt-orange3);
+  --status-color: var(--purple);
+  --status-color-highlight: var(--purple-lighter);
   --status-color-text: black;
 }
 
 .has-status.status-proposed {
-  --status-color: var(--burnt-orange8);
-  --status-color-highlight: var(--burnt-orange7);
+  --status-color: var(--dirt);
+  --status-color-highlight: var(--dirt-lighter);
   --status-color-text: white;
 }
 
 .has-status.status-complete {
-  --status-color: var(--green8);
-  --status-color-highlight: var(--green7);
-  --status-color-text: var(--grey0);
+  --status-color: var(--leaf);
+  --status-color-highlight: var(--leaf-lighter);
+  --status-color-text: var(--cauliflower);
 }
 
 .has-status.status-draft {
@@ -157,7 +157,7 @@ a.roadmap-item {
   width: 12px;
   border: 1px solid black;
 
-  background-color: var(--status-color, var(--burnt-orange3));
+  background-color: var(--status-color, var(--highlight-color));
   border-radius: 999px;
   z-index: 3;
 }
@@ -303,14 +303,9 @@ a.roadmap-item {
 
 .stream-indicator {
   background-color: black;
-  color: var(--stream-color-on-dark);
+  color: var(--cauliflower);
   text-align: center;
   padding: 0.2em 0.5em;
-}
-
-.roadmap-item-row.type-stream.rad-stream a.roadmap-item {
-  background-color: var(--stream-background-color);
-  color: var(--text-color-on-background);
 }
 
 .roadmap-item-row.type-stream.rad-stream a.roadmap-item h2 {
@@ -429,7 +424,7 @@ article.roadmap-item-page .article-header .status-indicator:after {
   display: flex;
   flex-direction: column;
   min-width: 150px;
-  border-right: 2px dashed var(--burnt-orange3);
+  border-right: 2px dashed var(--highlight-color);
 }
 
 .roadmap-side-nav ul {
@@ -443,7 +438,7 @@ article.roadmap-item-page .article-header .status-indicator:after {
 
 .roadmap-side-nav a {
   text-decoration: none;
-  color: var(--burnt-orange3);
+  color: var(--pink);
   padding: 0.3em 1em;
   display: block;
   position: relative;

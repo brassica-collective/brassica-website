@@ -1,4 +1,4 @@
-.retrofit {
+/*.retrofit {
   --stream-color: var(--retrofit);
   --stream-color-on-dark: lch(from var(--retrofit) calc(l + 50) c h);
   --stream-background-color: var(--retrofit);
@@ -44,4 +44,4 @@ article section.on-stream-background h4,
 article section.on-stream-background h5,
 article section.on-stream-background h6 {
   color: var(--text-color-on-background);
-}
+}*/
