@@ -9,5 +9,5 @@ summary: We have the processes, skills and agreements needed to work together, t
 params:
   type: stream
   stream: collectively
-  status:
+  status: in-progress
 ---

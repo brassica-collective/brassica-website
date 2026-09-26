@@ -7,6 +7,7 @@
 
   /* Main Pallette */
 
+  --leaf-darker: #556a5f;
   --leaf: #647d70;
   --leaf-lighter: #789385;
 
@@ -21,6 +22,7 @@
 
   --dirt: #635049;
   --dirt-lighter: #7a5e50;
+  --dirt-darker: #4f403a;
 
   --yellow: #ffdd62;
   --pink: #e19f83;

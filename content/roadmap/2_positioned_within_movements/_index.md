@@ -9,5 +9,5 @@ summary: We have built relationships in each of our areas of solidarity which ha
 params:
   type: stream
   stream: solidarity
-  status:
+  status: in-progress
 ---

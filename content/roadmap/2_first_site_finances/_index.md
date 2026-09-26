@@ -9,5 +9,5 @@ summary: We have the setup capital, a viable budget, a loan approved and clear f
 params:
   type: stream
   stream: decommodify
-  status:
+  status: in-progress
 ---
