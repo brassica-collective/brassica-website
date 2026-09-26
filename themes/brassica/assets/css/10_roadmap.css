@@ -36,8 +36,8 @@
 .roadmap-items:before {
   content: "";
   position: absolute;
-  left: calc(50% - 1px);
-  border-right: 2px dashed var(--highlight-color);
+  left: calc(50% - 2px);
+  border-right: 4px dashed var(--highlight-color);
   height: 100%;
   z-index: 1;
 }
@@ -123,6 +123,19 @@ a.roadmap-item {
   --status-color: var(--leaf);
   --status-color-highlight: var(--leaf-lighter);
   --status-color-text: var(--cauliflower);
+
+  .roadmap-item {
+    background-color: var(--status-color);
+    color: var(--status-color-text);
+
+    &:hover {
+      background-color: var(--status-color-highlight);
+    }
+
+    h2 {
+      color: var(--pink);
+    }
+  }
 }
 
 .has-status.status-draft {
