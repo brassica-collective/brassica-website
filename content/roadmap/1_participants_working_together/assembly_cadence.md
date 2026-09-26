@@ -8,4 +8,6 @@ slug:
 summary: Establish a culture of regular meetings of all participants, including clear roles that are rotated.
 params:
   status: complete
+  crews:
+    - DAS
 ---

@@ -8,4 +8,6 @@ slug:
 summary: We have a list of financial commitements from participants which give us confidence that we can handle the post-purchase budget, or we have cash on hand and agreement to spend it to cover the budget.
 params:
   status:
+  crews:
+    - DAS
 ---

@@ -7,5 +7,8 @@ type: roadmap
 slug:
 summary: We are agreed on everything we need to select the site we'd like to purchase from the available options,and have a clear plan for how we will make such decisions.
 params:
-  status:
+  status: in-progress
+  crews:
+    - seedling
+    - DAS
 ---

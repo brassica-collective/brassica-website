@@ -8,4 +8,6 @@ slug:
 summary: We are agreed on the process and criteria for the selection of initial residents in a way that we believe will allow us to fill the house with participants.
 params:
   status:
+  crews:
+    - DAS
 ---

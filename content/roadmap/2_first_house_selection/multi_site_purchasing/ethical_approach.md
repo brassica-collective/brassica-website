@@ -7,5 +7,7 @@ type: roadmap
 slug:
 summary: We have considered how to approach the buying in property in a market we don't agree with, and have agreed an a clear approach in situations where our ethics might be tested.
 params:
-  status:
+  status: in-progress
+  crews:
+    - seedling
 ---

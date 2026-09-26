@@ -8,4 +8,6 @@ slug:
 summary: We have participants committed to covering at least all of the mandatory roles for first 6 months after purchase.
 params:
   status:
+  crews:
+    - DAS
 ---

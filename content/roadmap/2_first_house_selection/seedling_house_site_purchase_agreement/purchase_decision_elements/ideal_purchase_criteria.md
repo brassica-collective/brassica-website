@@ -8,4 +8,6 @@ slug:
 summary: We are agreed on all the criteria that we value in a site that would contribute to our desire to choose it over another.
 params:
   status:
+  crews:
+    - seedling
 ---

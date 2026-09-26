@@ -7,5 +7,7 @@ type: roadmap
 slug:
 summary: We are agreed on all the criteria a site needs to meet for us to consider purchasing it.
 params:
-  status:
+  status: in-progress
+  crews:
+    - seedling
 ---

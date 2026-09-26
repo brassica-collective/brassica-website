@@ -8,4 +8,6 @@ slug:
 summary: It's clear how to stop participanting, and endings are handled well.
 params:
   status: complete
+  crews:
+    - DAS
 ---

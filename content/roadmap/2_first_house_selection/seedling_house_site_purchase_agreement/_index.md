@@ -8,4 +8,7 @@ slug:
 summary: We are agreed on everything we need to go shopping for real-estate, and be able to make purchase decisions.
 params:
   status: in-progress
+  crews:
+    - seedling
+    - DAS
 ---

@@ -8,4 +8,7 @@ slug:
 summary: We are agreed on how we go about purchasing houses to support an eventual multi-site collective vision.
 params:
   status: in-progress
+  crews:
+    - DAS
+    - seedling
 ---

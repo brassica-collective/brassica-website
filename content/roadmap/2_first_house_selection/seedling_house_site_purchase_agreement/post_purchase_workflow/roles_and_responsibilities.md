@@ -8,4 +8,7 @@ slug:
 summary: We have a clear description of roles and responsibilities needed in the months after taking ownership of the property to ensure that we correctly fullfill the obligations that come with buying property and taking on a mortgage.
 params:
   status:
+  crews:
+    - seedling
+    - DAS
 ---

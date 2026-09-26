@@ -64,10 +64,14 @@
 /* Item Typography */
 
 a.roadmap-item {
+  --color: var(--dirt);
+  --background-color: var(--cauliflower);
+  --background-color-darker: var(--cauliflower-darker);
+
   text-decoration: none;
   min-width: 200px;
   max-width: 500px;
-  background-color: var(--cauliflower);
+  background-color: var(--background-color);
   color: var(--dirt);
   border: 2px solid black;
   border-radius: 8px;
@@ -81,7 +85,7 @@ a.roadmap-item {
   &:visited,
   &:link,
   &:active {
-    color: var(--dirt);
+    color: var(--color);
   }
 
   &:hover {
@@ -96,7 +100,7 @@ a.roadmap-item {
 
   h2 {
     font-size: 1.2em;
-    color: var(--dirt);
+    color: var(--color);
   }
 }
 
@@ -132,6 +136,7 @@ a.roadmap-item {
   --status-color: var(--leaf-darker);
   --status-color-highlight: var(--leaf);
   --status-color-text: var(--cauliflower);
+  --background-color-darker: var(--leaf-darker);
 
   .roadmap-item {
     background-color: var(--leaf);
@@ -143,6 +148,14 @@ a.roadmap-item {
 
     h2 {
       color: var(--pink);
+    }
+
+    ul.tags {
+      li.tag {
+        background-color: var(--leaf-darker);
+        color: var(--cauliflower);
+        border-color: var(--cauliflower);
+      }
     }
   }
 }
@@ -369,7 +382,7 @@ a.roadmap-item {
 .roadmap-item-row .sub-pages .sub-page {
   width: 12px;
   height: 12px;
-  background-color: var(--grey5);
+  background-color: var(--grey3);
   border-radius: 9999px;
 }
 
@@ -517,4 +530,24 @@ article.roadmap-item-page .article-header .status-indicator:after {
 
 .roadmap-item-page .parent-page-link {
   margin-top: 2em;
+}
+
+/* Tags */
+
+ul.tags {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0 12px;
+
+  li.tag {
+    color: var(--color);
+    background-color: var(--background-color-darker);
+    display: inline-block;
+    padding: 2px 6px 3px 6px;
+    border-radius: 6px;
+    border: 2px solid var(--color);
+    font-weight: bold;
+  }
 }

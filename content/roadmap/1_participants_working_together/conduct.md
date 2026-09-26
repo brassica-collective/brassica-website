@@ -8,4 +8,6 @@ slug:
 summary: Participants have a clear and actionable agreement on how to conduct themselves in the project, and what to do when conduct does not align with expectations.
 params:
   status: complete
+  crews:
+    - DAS
 ---

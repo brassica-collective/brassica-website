@@ -8,4 +8,7 @@ slug:
 summary: We have agreed on a democractic approach to making the decision to purchase a specific property.
 params:
   status:
+  crews:
+    - DAS
+    - seedling
 ---

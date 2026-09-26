@@ -8,4 +8,6 @@ slug:
 summary: We have participants committed to covering at least all of the mandatory roles for the purchase workflow (and ideally all roles).
 params:
   status:
+  crews:
+    - DAS
 ---

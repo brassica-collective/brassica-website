@@ -8,4 +8,6 @@ slug:
 summary: We have a list of financial commitements from participants which give us confidence that we can handle the initial capital raise and any required mortgage gaurantees.
 params:
   status:
+  crews:
+    - DAS
 ---

@@ -8,4 +8,6 @@ slug:
 summary: Create crews (working groups) to do the work, and establish clear processes and culture for opting in to do the work.
 params:
   status: complete
+  crews:
+    - DAS
 ---

@@ -8,4 +8,6 @@ slug:
 summary: Measured processes exist for people to express interest, be invited to participate at a rate we can support, and to be onboarded into the project.
 params:
   status: complete
+  crews:
+    - DAS
 ---

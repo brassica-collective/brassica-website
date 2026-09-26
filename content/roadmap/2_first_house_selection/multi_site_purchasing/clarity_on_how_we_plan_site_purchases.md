@@ -8,4 +8,6 @@ slug:
 summary: We have clear agreement on what is required to plan an individual site purchase
 params:
   status: complete
+  crews:
+    - seedling
 ---

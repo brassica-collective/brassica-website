@@ -8,4 +8,6 @@ slug:
 summary: We have a clear method to compare properties against each other that uses our ideal purchase criteria to both determine our level of interest in buying, and to select a favourite from multiple options.
 params:
   status:
+  crews:
+    - seedling
 ---

@@ -8,4 +8,6 @@ slug:
 summary: Participants are agreed on what they are responsible for, and what they can expect from the project.
 params:
   status: complete
+  crews:
+    - DAS
 ---

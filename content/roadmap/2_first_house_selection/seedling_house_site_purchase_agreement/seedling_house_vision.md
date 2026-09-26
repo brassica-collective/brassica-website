@@ -7,5 +7,7 @@ type: roadmap
 slug:
 summary: We are agreed on simple explanation of what the collective aims to achieve with Seedling house.
 params:
-  status:
+  status: complete
+  crews:
+    - seedling
 ---
