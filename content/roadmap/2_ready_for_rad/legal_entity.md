@@ -8,4 +8,6 @@ slug:
 summary: Suited to co-operative governance of assets
 params:
   status: in-progress
+  crews:
+    - DAS
 ---

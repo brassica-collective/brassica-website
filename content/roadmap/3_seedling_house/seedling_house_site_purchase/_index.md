@@ -8,4 +8,7 @@ slug:
 summary: We have completed our first house and land purchase.
 params:
   status:
+  crews:
+    - seedling
+    - DAS
 ---

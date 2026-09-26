@@ -8,4 +8,6 @@ slug:
 summary: We have signed a purchase agreement with a vendor and are committeed to purchase a property for a particular price.
 params:
   status:
+  crews:
+    - DAS
 ---

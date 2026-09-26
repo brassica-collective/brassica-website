@@ -6,4 +6,8 @@ weight: 1
 type: roadmap
 slug:
 summary: The RAD model has developed/provided the financial instruments that we need to represent the legal entities and agreements that support our ability to take on money, debt, and shared property purchase.
+params:
+  status:
+  crews:
+    - DAS
 ---
