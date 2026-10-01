@@ -246,6 +246,8 @@ article.home-page {
       text-align: center;
 
       a.section-link {
+        border-radius: 2px;
+
         &:after {
           display: none;
         }
