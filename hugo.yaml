@@ -10,12 +10,15 @@ docs:
 
 menus:
   main:
+    - name: "Get involved"
+      pageRef: "/get-involved"
+      weight: 1
     - name: "Handbook"
       pageRef: "/handbook"
-      weight: 1
+      weight: 2
     - name: "Roadmap"
       pageRef: "/roadmap"
-      weight: 2
+      weight: 3
 
 module:
   hugoVersion:
