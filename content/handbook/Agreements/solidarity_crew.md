@@ -4,7 +4,7 @@ slug: solidarity_crew
 type: docs
 menus:
   handbook:
-    weight: 8
+    weight: 9
     parent: Agreements
 ---
 

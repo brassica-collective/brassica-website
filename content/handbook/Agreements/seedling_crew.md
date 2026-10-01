@@ -4,7 +4,7 @@ slug: seedling_crew
 type: docs
 menus:
   handbook:
-    weight: 9
+    weight: 10
     parent: Agreements
 ---
 

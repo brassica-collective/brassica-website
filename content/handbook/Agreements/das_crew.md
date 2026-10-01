@@ -4,7 +4,7 @@ slug: das_crew
 type: docs
 menus:
   handbook:
-    weight: 10
+    weight: 11
     parent: Agreements
 ---
 

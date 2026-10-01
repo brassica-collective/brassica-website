@@ -4,7 +4,7 @@ slug: knowledge_gardening_crew
 type: docs
 menus:
   handbook:
-    weight: 7
+    weight: 8
     parent: Agreements
 ---
 

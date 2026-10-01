@@ -4,7 +4,7 @@ slug: ops_crew
 type: docs
 menus:
   handbook:
-    weight: 11
+    weight: 12
     parent: Agreements
 ---
 
