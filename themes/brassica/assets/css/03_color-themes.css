@@ -52,6 +52,10 @@
   --dimmed-color: var(--cauliflower-darker);
   --link-color: var(--grass);
   --link-color-hover: var(--grass-lighter);
+
+  h1 {
+    --highlight-color: var(--grass);
+  }
 }
 
 .on-blue,

@@ -34,3 +34,5 @@ If you'd like to be an active participant in the project, taking an active role 
 You can read about what this involves in the [Participation](/handbook/participation/) section of our handbook. If this feels like you, use the following form to express your interest and we'll be in touch if and when existing participants have capacity.
 
 {{< section-link "https://opnform.com/forms/brassica-collaborator-eoi-i6vohy" "Participant interest" >}}
+
+{{< decoration "radish" >}}

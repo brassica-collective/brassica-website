@@ -1,6 +1,8 @@
 .solo {
   padding-top: 2rem;
   padding-bottom: 2rem;
+  padding-left: var(--page-gutter);
+  padding-right: var(--page-gutter);
 }
 
 article.solo-page {
