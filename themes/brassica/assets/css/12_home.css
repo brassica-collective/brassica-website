@@ -12,44 +12,10 @@ article.home-page {
     padding: var(--page-gutter);
   }
 
-  section p:first-child {
-    margin-top: 0;
-  }
-
-  .section-link-container {
-    text-align: right;
-  }
-
-  a.section-link {
-    --height: 40px;
-    --color: var(--highlight-color);
-
-    font-weight: bold;
-    font-size: 1.3rem;
-    background-color: var(--highlight-color);
-    color: var(--background-color);
-    display: inline-block;
-    text-decoration: none;
-    padding: 0 0.5em;
-    position: relative;
-    height: var(--height);
-    line-height: var(--height);
-    margin-right: calc(var(--height) / 2);
-  }
-
-  a.section-link:after {
-    --half-height: calc(var(--height) * 0.5);
-
-    content: "";
-    display: block;
-    height: 0;
-    width: 0;
-    position: absolute;
-    top: 0;
-    right: calc(-1 * var(--half-height));
-    border-left: var(--half-height) solid var(--color);
-    border-top: var(--half-height) solid transparent;
-    border-bottom: var(--half-height) solid transparent;
+  section p {
+    &:first-child {
+      margin-top: 0;
+    }
   }
 
   section .with-side-image {
@@ -96,10 +62,12 @@ article.home-page {
       background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 1) 100%);
       font-size: 1.2rem;
 
-      a,
-      a:link,
-      a:visited {
-        color: rgb(0, 138, 230);
+      a {
+        &,
+        &:link,
+        &:visited {
+          color: rgb(0, 138, 230);
+        }
       }
 
       .rad-purpose {
@@ -131,37 +99,43 @@ article.home-page {
     }
   }
 
-  section.project,
-  section.values,
-  section.seedling {
-    font-size: 1.7rem;
-  }
+  section {
+    &.project,
+    &.values,
+    &.seedling {
+      font-size: 1.7rem;
+    }
 
-  section strong,
-  section h2 {
-    color: var(--highlight-color);
-  }
+    strong,
+    h2 {
+      color: var(--highlight-color);
+    }
 
-  section.multi-house {
-    font-size: 1.5rem;
-  }
+    &.multi-house {
+      font-size: 1.5rem;
+    }
 
-  section.multi-house h2 {
-    font-size: 2rem;
-  }
+    &.multi-house h2 {
+      font-size: 2rem;
+    }
 
-  section.topic {
-    background-color: var(--background-color);
-    color: var(--color);
+    &.topic {
+      background-color: var(--background-color);
+      color: var(--color);
 
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: cover;
-  }
+      background-repeat: no-repeat;
+      background-position: center top;
+      background-size: cover;
+    }
 
-  section.topic .container {
-    padding-top: calc(var(--page-gutter) * 2);
-    padding-bottom: calc(var(--page-gutter) * 2);
+    &.topic .container {
+      padding-top: calc(var(--page-gutter) * 2);
+      padding-bottom: calc(var(--page-gutter) * 2);
+    }
+
+    .section-link-container {
+      text-align: right;
+    }
   }
 
   /* COLOR SECTIONS */

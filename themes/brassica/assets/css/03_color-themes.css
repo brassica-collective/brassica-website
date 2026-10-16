@@ -36,7 +36,26 @@
   --highlight-color: var(--pink);
   --background-color: var(--blueprint);
   --color: white;
+  --dimmed-color: var(--cauliflower);
+  --link-color: var(--grass);
+  --link-color-hover: var(--grass-lighter);
 
+  nav.between-pages {
+    border-color: var(--dirt-lighter);
+  }
+}
+
+.on-leaf {
+  --highlight-color: var(--cauliflower-lighter);
+  --background-color: var(--leaf-darker);
+  --color: var(--cauliflower);
+  --dimmed-color: var(--cauliflower-darker);
+  --link-color: var(--grass);
+  --link-color-hover: var(--grass-lighter);
+}
+
+.on-blue,
+.on-leaf {
   background-color: var(--background-color);
   color: var(--color);
 
@@ -50,7 +69,7 @@
 
   em,
   ul {
-    color: var(--cauliflower);
+    color: var(--dimmed-color);
   }
 
   a,
@@ -58,14 +77,10 @@
   a:visited,
   a:link,
   a:active {
-    color: var(--grass);
+    color: var(--link-color);
   }
 
   a:hover {
-    color: var(--grass-lighter);
-  }
-
-  nav.between-pages {
-    border-color: var(--dirt-lighter);
+    color: var(--link-color-hover);
   }
 }
