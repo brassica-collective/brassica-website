@@ -20,7 +20,7 @@ menus:
       pageRef: "/roadmap"
       weight: 3
     - name: "Dashboard"
-      url: "https://brassica.radhousing.org"
+      url: "https://participate.radhousing.org"
       weight: 4
 
 module:
