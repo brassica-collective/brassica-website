@@ -5,7 +5,7 @@ draft: false
 weight: 3
 type: roadmap
 slug:
-summary: We are agreed on our vision for a multi-site collective enought that we are confident that we can select a first site purchase which will take us in the right direction.
+summary: We are agreed on our vision for a multi-site collective enough that we are confident that we can select a first site purchase which will take us in the right direction.
 params:
   status: complete
   crews:
