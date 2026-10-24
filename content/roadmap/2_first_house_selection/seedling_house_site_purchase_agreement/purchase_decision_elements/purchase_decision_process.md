@@ -5,7 +5,7 @@ draft: false
 weight: 5
 type: roadmap
 slug:
-summary: We have agreed on a democractic approach to making the decision to purchase a specific property.
+summary: We have agreed on a democratic approach to making the decision to purchase a specific property.
 params:
   status:
   crews:
