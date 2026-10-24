@@ -18,6 +18,28 @@ article.home-page {
     }
   }
 
+  .news-flash {
+    background-color: var(--leaf-darker);
+    color: var(--cauliflower);
+
+    a {
+      &,
+      &:hover,
+      &:visited,
+      &:link,
+      &:active {
+        color: var(--yellow);
+      }
+    }
+
+    a {
+      &:hover {
+        color: var(--yellow);
+        filter: brightness(1.3);
+      }
+    }
+  }
+
   section .with-side-image {
     display: flex;
     flex-direction: row;
