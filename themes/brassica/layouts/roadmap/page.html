@@ -11,6 +11,8 @@
       {{ end }}
     </div>
 
+    <div class="summary"><p>{{ .Summary }}</p></div>
+
     {{ .Content }} {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
 
     <div class="parent-page-link">
