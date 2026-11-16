@@ -4,7 +4,7 @@ slug: website_editing
 type: docs
 menus:
   handbook:
-    weight: 8
+    weight: 10
     parent: How-tos
 ---
 

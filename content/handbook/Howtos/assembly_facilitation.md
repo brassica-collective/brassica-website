@@ -4,7 +4,7 @@ slug: assembly_facilitation
 type: docs
 menus:
   handbook:
-    weight: 3
+    weight: 4
     parent: How-tos
 ---
 
