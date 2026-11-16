@@ -1,6 +1,6 @@
 ---
-title: Handbook Editing
-slug: handbook_editing
+title: Website Editing
+slug: website_editing
 type: docs
 menus:
   handbook:
@@ -9,25 +9,25 @@ menus:
 ---
 
 
-Ensuring this handbook is updated to reflect current practices is included within the Knowledge Gardening Crew's responsibilities.
+Ensuring the Brassic Collective website, including this handbook, is updated to reflect current practices is within the Knowledge Gardening Crew's responsibilities.
 
-If there are changes you think need to be made, please reach out to the Knowledge Gardening Crew. If you would like to contribute to the work of updating the handbook, please opt-in to participating on the Knowledge Gardening Crew when you have capacity to do so. 
+If there are changes you think need to be made, please reach out to the Knowledge Gardening Crew. If you would like to contribute to the work of updating the website, please opt-in to participating on the Knowledge Gardening Crew when you have capacity to do so. 
 
 The following guidelines assume you are familar with the process of finding relevant documentation for a range of general tools and processes (see the list of 'further resources'). 
 
 If you would like to contribute and are not yet comfortable with any of the relevant tools and processes, please ask to collaborate on changes and/or request support in your approach to learning how to make changes.
 
-## Updating content in the Brassica Handbook: 
+## Updating content on the Brassica Website: 
 
-### Clone the brassica-collective/handbook repository
+### Clone the brassica-collective/brassica-website repository
 If you've not yet done so: 
-1. Open a terminal and navigate to a location on your device where you want to store a copy of this Handbook (e.g.,`cd dev`) and create an approriatly named directory (e.g., `mkdir brassica-collective`) 
-2. Retrieve a copy (clone) of the entire handbook repository from the hosted location via URL (e.g. 
-`git clone https://github.com/brassica-collective/handbook`)
+1. Open a terminal and navigate to a location on your device where you want to store a copy of this website (e.g.,`cd dev`) and create an approriatly named directory (e.g., `mkdir brassica-collective`) 
+2. Retrieve a copy (clone) of the entire website repository from the hosted location via URL (e.g. 
+`git clone https://github.com/brassica-collective/brassica-website.git`)
 
 ### Check out a branch for your changes: 
-1. Navigate to the location of the cloned handbook repository on your device 
-(e.g., `cd /dev/brassica-collective/handbook`)
+1. Navigate to the location of the cloned website repository on your device 
+(e.g., `cd /dev/brassica-collective/brassica-website`)
 2. Check status 
 (e.g. `git status` or `gst`)
 3. Check for any updates (`git pull`)
@@ -47,18 +47,17 @@ In your code-editor:
 3. If needed create the file in the relevant folders with appropriate names (all lowercase and using underscores between words, e.g., `conduct_agreement.md`)
 
 ### Edit Markdown documents
-1. Add/edit the navigation information of title; slug; type; prev; next; etc., (at the top of the file between two sets of three dashes )
+1. Add/edit the navigation information of title; slug; type; etc., (at the top of the file between two sets of three dashes )
   For example, if you view the markdown for this file, it starts with 
   ```
   ---
-title: Handbook Editing
-slug: handbook_editing
+title: Website Editing
+slug: website_editing
 type: docs
-prev: assembly_facilitation
-next: handbook
-weight: 4
-sidebar:
-  open: true
+menus:
+  handbook:
+    weight: 8
+    parent: How-tos
 ---
 
   ```
@@ -67,7 +66,7 @@ sidebar:
 
 ### Preview changes
 Preview changes in the front-end (editing the files as above to fix any broken dependencies)
-1. Open a new terminal tab and navigate to the location of the cloned repositiory on your device (e.g., cd /dev/brassica-collective/handbook)
+1. Open a new terminal tab and navigate to the location of the cloned repositiory on your device (e.g., cd /dev/brassica-collective/brassica-website)
 2. Run the `hugo server` command, this will provide a localhost address 
 3. Open the localhost address and navigate to with the relevant section of the website  
 4. Check this preview of the website for any broken links, navigation errors, formatting errors, etc.,  
