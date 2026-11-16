@@ -5,7 +5,7 @@ type: docs
 open: true
 menus:
   handbook:
-    weight: 7
+    weight: 9
     parent: How-tos
 ---
 

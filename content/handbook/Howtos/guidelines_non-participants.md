@@ -4,7 +4,7 @@ slug: guidelines_non-participant
 type: docs
 menus:
   handbook:
-    weight: 4
+    weight: 5
     parent: How-tos
 ---
 
