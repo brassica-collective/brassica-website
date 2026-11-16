@@ -68,7 +68,7 @@ menus:
 Preview changes in the front-end (editing the files as above to fix any broken dependencies)
 1. Open a new terminal tab and navigate to the location of the cloned repositiory on your device (e.g., cd /dev/brassica-collective/brassica-website)
 2. Run the `hugo server` command, this will provide a localhost address 
-3. Open the localhost address and navigate to with the relevant section of the website  
+3. Open the localhost address and navigate to the relevant section of the website  
 4. Check this preview of the website for any broken links, navigation errors, formatting errors, etc.,  
 
 ### Review other files for consistency
