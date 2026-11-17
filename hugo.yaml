@@ -20,7 +20,7 @@ menus:
       pageRef: "/roadmap"
       weight: 3
     - name: "Dashboard"
-      url: "https://participate.radhousing.org"
+      url: "https://participate.merri-bek.tech"
       weight: 4
 
 module:
