@@ -129,7 +129,7 @@ This agreement is intended to help us implement our conduct agreement. Because l
   * **These responsibilities differ for each support role.**  
 * OUT-OF-SCOPE:   
   * Support requests that are unrelated to participation in this housing collective (noting that at times individuals who are participants in the collective may also have separately agreed to support each other outside the context of involvement in the same housing collective). **We encourage participants to practice reaching out to their broader support networks for these forms of support.**  
-  * Support for [non-participants](../../howtos/guidelines_non-participant) (with the exception of [collaborators](../../howtos/guidelines_collaborators) who have initiated a Conduct Agreement Response) 
+  * Support for [non-participants](../../howtos/non-participant_guidelines) (with the exception of [collaborators](../../howtos/collaborator_guidelines) who have initiated a Conduct Agreement Response) 
 
 #### How do we learn to implement our Conduct Supporter responsibilities? 
 
@@ -285,7 +285,7 @@ The skills this conduct supporter roles support include:
 * This agreement assumes familiarity with our broader set of [collective agreements](../../agreements) and any ambiguities in this agreement should be interpreted in that context. In this context:   
   * ‘we’ refers to all current participants and collaborators in the Brassica Collective.   
   * A ‘current participant’ is described in the [Responsibilities and Expectations Agreement](../responsibilities_and_expectations)  
-  * A ‘collaborator’ is described in the [Collaborators Guidelines](../../howtos/guidelines_collaborators)  
+  * A ‘collaborator’ is described in the [Collaborators Guidelines](../../howtos/collaborator_guidelines)  
 * This agreement draws on lessons from [transformative approaches to navigating conflict](https://commonslibrary.org/transformative-approaches-to-conflict-resolution/) and [disability justice](https://sinsinvalid.org/10-principles-of-disability-justice/) approaches to [moving at the speed of trust](https://bcrw.barnard.edu/event/moving-at-the-speed-of-trust-disability-and-transformative-justice/) when building collective practices, for more context and definitions of terms in this context, see our Conduct Agreement.  
 * Key terms include:   
   * Accountability \= willingness to accept responsibility for the consequences of one’s actions   
