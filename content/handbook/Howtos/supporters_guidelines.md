@@ -1,6 +1,6 @@
 ---
-title: Guidelines for Conduct Supporters
-slug: guidelines_supporters
+title: Conduct Supporters Guidelines
+slug: supporters_guidelines
 type: docs
 open: true
 menus:
@@ -8,7 +8,6 @@ menus:
     weight: 8
     parent: How-tos
 ---
-
 
 [**Conduct Supporter roles**](../../agreements/supporter_agreement) are intended to help us distribute the labour of supporting each other to act in alignment with our [Conduct Agreement](../../agreements/conduct_agreement). 
 
