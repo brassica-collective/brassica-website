@@ -32,7 +32,7 @@ Contents:
 
 # Context for Collaborators
 
-Collaborators are [non-participants](../guidelines_non-participants) whose involvement in the project includes contributing without, or in between intervals of, [participating](../../Participation) in Brasscica Collective. 
+Collaborators are [non-participants](../non-participant_guideliness) whose involvement in the project includes contributing without, or in between intervals of, [participating](../../Participation) in Brasscica Collective. 
 
 # Collaborator Responsibilities and Expectations
 
@@ -50,7 +50,7 @@ Collaborators are non-participant attendees. Our guidelines for non-participant 
 # Entry Pathways (How to become a Collaborator)
 
 * Potential Collaborators can express interest by speaking to any current participant and filling in our [EOI form](https\://opnform.com/forms/brassica-collective-eoi-jwed5j)   
-* Any one participant can invite someone to become a Collaborator 
+* Any one participant can [invite someone to become a Collaborator (See How-to)](../non-participant_guideliness)
 
 Once onboarded, Collaborators are invited to opt-in to ‘seasons’ or aspects of involvement in the project (via Radicalise)
 
