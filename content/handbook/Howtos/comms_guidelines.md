@@ -16,7 +16,7 @@ Different tools are useful for different forms of communication. These guideline
 
 ## Communicating involvement in the Brassica Collective Project = RADicalise
 
-The [RADicalise tool](https://brassica.radhousing.org/) is used by participants and collaborators to communicate our capacity and intentions for how we want to be involved in the project. Participants are periodically invited to update the information on RADicalise including explicitly opting-in (or out) of different forms of participation. 
+The [RADicalise tool](https://participate.radhousing.org/) is used by participants and collaborators to communicate our capacity and intentions for how we want to be involved in the project. Participants are periodically invited to update the information on RADicalise including explicitly opting-in (or out) of different forms of participation. 
 
 Becoming a collaborator: functionality to allow any current participant to invite a collaborator to use Radicalise is currently being developed.
 
@@ -53,7 +53,7 @@ Subgroups on Loomio are used to collect related sets of closed threads that may 
 To get a sense of how tasks we are working on relate to the broader strategic goals of the collective we will have the strategic roadmap. It’s being developed by participants in DAS crew.
 
 ## Current Agreements and Processes = Handbook
-Stable versions of documentation related to the project including current agreements, processes and guidelines are published in the [handbook](https://radhousing.org/brassica/handbook/).
+Stable versions of documentation related to the project including current agreements, processes and guidelines are published in the [handbook](https://brassica.radhousing.org/handbook/).
 
 ## Draft Agreements and Processes = Shared Drive 
 Draft versions of documentation including agreements and processes are stored in the [google drive](https://drive.google.com/drive/folders/1ctSl5hyxLsJ3bl8Nr-YkHdj4-eYNf9oF). 

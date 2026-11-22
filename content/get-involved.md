@@ -23,7 +23,7 @@ If you'd like to have a further discussion with someone participating in the pro
 
 If you'd like to contribute to the project in intermittent ways, and be kept up to date, you might want to become a **Collaborator**.
 
-You can read about what this involves in our [Guidelines for Collaborators](/handbook/howtos/guidelines_collaborators/). If this feels like you, use the following form to express your interest and we'll be in touch.
+You can read about what this involves in our [Guidelines for Collaborators](/handbook/howtos/collaborator_guidelines/). If this feels like you, use the following form to express your interest and we'll be in touch.
 
 {{< section-link "https://opnform.com/forms/brassica-collective-eoi-jwed5j" "Collaborator interest" >}}
 

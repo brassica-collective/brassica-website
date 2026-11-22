@@ -1,5 +1,5 @@
 ---
-title: Guidelines for Participation Buddies
+title: Participation Buddies Guidelines
 slug: buddies_guidelines
 type: docs
 open: true

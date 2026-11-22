@@ -1,6 +1,6 @@
 ---
-title: Onboarding Process
-slug: onboarding_process
+title: Participant Onboarding Process
+slug: participant_onboarding_process
 type: docs
 menus:
   handbook:
